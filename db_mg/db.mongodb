@@ -49,7 +49,7 @@ db.createCollection("historiales", {
                     bsonType: ["date", "null"],
                     description: '{"status": "402", "message": "El UPDATED AT del historial es un dato OBLIGATORIO y de tipo DATE"}'
                 },
-                deleted_at: {
+                delete_at: {
                     bsonType: ["date", "null"],
                     description: '{"status": "402", "message": "El DELETE AT del historial es un dato OBLIGATORIO y de tipo DATE"}'
                 },
@@ -70,7 +70,7 @@ db.historiales.insertMany([
         "updated_by": 2,
         "created_at": new Date("2022-06-02"),
         "updated_at": new Date("2022-06-02"),
-        "deleted_at": new Date("2022-06-02")
+        "delete_at": new Date("2022-06-02")
     },
     {
         "id": 2,
@@ -82,7 +82,7 @@ db.historiales.insertMany([
         "updated_by": 2,
         "created_at": new Date("2022-06-03"),
         "updated_at": new Date("2022-06-03"),
-        "deleted_at": new Date("2022-06-03")
+        "delete_at": new Date("2022-06-03")
     },
     {
         "id": 3,
@@ -94,7 +94,7 @@ db.historiales.insertMany([
         "updated_by": 3,
         "created_at": new Date("2022-06-04"),
         "updated_at": new Date("2022-06-04"),
-        "deleted_at": new Date("2022-06-04")
+        "delete_at": new Date("2022-06-04")
 
     },
     {
@@ -107,7 +107,7 @@ db.historiales.insertMany([
         "updated_by": 4,
         "created_at": new Date("2022-06-05"),
         "updated_at": new Date("2022-06-05"),
-        "deleted_at": new Date("2022-06-05")
+        "delete_at": new Date("2022-06-05")
     },
     {
         "id": 5,
@@ -119,7 +119,7 @@ db.historiales.insertMany([
         "updated_by": 5,
         "created_at": new Date("2022-06-06"),
         "updated_at": new Date("2022-06-06"),
-        "deleted_at": new Date("2022-06-06")
+        "delete_at": new Date("2022-06-06")
     },
     {
         "id": 6,
@@ -131,7 +131,7 @@ db.historiales.insertMany([
         "updated_by": 6,
         "created_at": new Date("2022-06-07"),
         "updated_at": new Date("2022-06-07"),
-        "deleted_at": new Date("2022-06-07")
+        "delete_at": new Date("2022-06-07")
     },
     {
         "id": 7,
@@ -143,7 +143,7 @@ db.historiales.insertMany([
         "updated_by": 7,
         "created_at": new Date("2022-06-08"),
         "updated_at": new Date("2022-06-08"),
-        "deleted_at": new Date("2022-06-08")
+        "delete_at": new Date("2022-06-08")
     },
     {
         "id": 8,
@@ -155,7 +155,7 @@ db.historiales.insertMany([
         "updated_by": 8,
         "created_at": new Date("2022-06-09"),
         "updated_at": new Date("2022-06-09"),
-        "deleted_at": new Date("2022-06-09")
+        "delete_at": new Date("2022-06-09")
     },
     {
         "id": 9,
@@ -167,7 +167,7 @@ db.historiales.insertMany([
         "updated_by": 9,
         "created_at": new Date("2022-06-10"),
         "updated_at": new Date("2022-06-10"),
-        "deleted_at": new Date("2022-06-10")
+        "delete_at": new Date("2022-06-10")
     },
     {
         "id": 10,
@@ -179,7 +179,7 @@ db.historiales.insertMany([
         "updated_by": 10,
         "created_at": new Date("2022-06-11"),
         "updated_at": new Date("2022-06-11"),
-        "deleted_at": new Date("2022-06-11")
+        "delete_at": new Date("2022-06-11")
     },
     {
         "id": 11,
@@ -191,7 +191,7 @@ db.historiales.insertMany([
         "updated_by": 11,
         "created_at": new Date("2022-06-12"),
         "updated_at": new Date("2022-06-12"),
-        "deleted_at": new Date("2022-06-12")
+        "delete_at": new Date("2022-06-12")
     },
     {
         "id": 12,
@@ -203,7 +203,7 @@ db.historiales.insertMany([
         "updated_by": 12,
         "created_at": new Date("2022-06-13"),
         "updated_at": new Date("2022-06-13"),
-        "deleted_at": new Date("2022-06-13")
+        "delete_at": new Date("2022-06-13")
     },
     {
         "id": 13,
@@ -215,7 +215,7 @@ db.historiales.insertMany([
         "updated_by": 13,
         "created_at": new Date("2022-06-14"),
         "updated_at": new Date("2022-06-14"),
-        "deleted_at": new Date("2022-06-14")
+        "delete_at": new Date("2022-06-14")
     },
     {
         "id": 14,
@@ -227,7 +227,7 @@ db.historiales.insertMany([
         "updated_by": 14,
         "created_at": new Date("2022-06-15"),
         "updated_at": new Date("2022-06-15"),
-        "deleted_at": new Date("2022-06-15")
+        "delete_at": new Date("2022-06-15")
     },
     {
         "id": 15,
@@ -239,7 +239,7 @@ db.historiales.insertMany([
         "updated_by": 15,
         "created_at": new Date("2022-06-16"),
         "updated_at": new Date("2022-06-16"),
-        "deleted_at": new Date("2022-06-16")
+        "delete_at": new Date("2022-06-16")
     },
     {
         "id": 16,
@@ -251,7 +251,7 @@ db.historiales.insertMany([
         "updated_by": 16,
         "created_at": new Date("2022-06-17"),
         "updated_at": new Date("2022-06-17"),
-        "deleted_at": new Date("2022-06-17")
+        "delete_at": new Date("2022-06-17")
     },
     {
         "id": 17,
@@ -263,7 +263,7 @@ db.historiales.insertMany([
         "updated_by": 17,
         "created_at": new Date("2022-06-18"),
         "updated_at": new Date("2022-06-18"),
-        "deleted_at": new Date("2022-06-18")
+        "delete_at": new Date("2022-06-18")
     },
     {
         "id": 18,
@@ -275,7 +275,7 @@ db.historiales.insertMany([
         "updated_by": 18,
         "created_at": new Date("2022-06-19"),
         "updated_at": new Date("2022-06-19"),
-        "deleted_at": new Date("2022-06-19")
+        "delete_at": new Date("2022-06-19")
     },
     {
         "id": 19,
@@ -287,7 +287,7 @@ db.historiales.insertMany([
         "updated_by": 19,
         "created_at": new Date("2022-06-20"),
         "updated_at": new Date("2022-06-20"),
-        "deleted_at": new Date("2022-06-20")
+        "delete_at": new Date("2022-06-20")
     },
     {
         "id": 20,
@@ -299,7 +299,7 @@ db.historiales.insertMany([
         "updated_by": 20,
         "created_at": new Date("2022-06-21"),
         "updated_at": new Date("2022-06-21"),
-        "deleted_at": new Date("2022-06-21")
+        "delete_at": new Date("2022-06-21")
     },
     {
         "id": 21,
@@ -311,7 +311,7 @@ db.historiales.insertMany([
         "updated_by": 21,
         "created_at": new Date("2022-06-22"),
         "updated_at": new Date("2022-06-22"),
-        "deleted_at": new Date("2022-06-22")
+        "delete_at": new Date("2022-06-22")
     },
     {
         "id": 22,
@@ -323,7 +323,7 @@ db.historiales.insertMany([
         "updated_by": 22,
         "created_at": new Date("2022-06-23"),
         "updated_at": new Date("2022-06-23"),
-        "deleted_at": new Date("2022-06-23")
+        "delete_at": new Date("2022-06-23")
     },
     {
         "id": 23,
@@ -335,7 +335,7 @@ db.historiales.insertMany([
         "updated_by": 23,
         "created_at": new Date("2022-06-24"),
         "updated_at": new Date("2022-06-24"),
-        "deleted_at": new Date("2022-06-24")
+        "delete_at": new Date("2022-06-24")
     },
     {
         "id": 24,
@@ -347,7 +347,7 @@ db.historiales.insertMany([
         "updated_by": 24,
         "created_at": new Date("2022-06-25"),
         "updated_at": new Date("2022-06-25"),
-        "deleted_at": new Date("2022-06-25")
+        "delete_at": new Date("2022-06-25")
     },
     {
         "id": 25,
@@ -359,7 +359,7 @@ db.historiales.insertMany([
         "updated_by": 25,
         "created_at": new Date("2022-06-26"),
         "updated_at": new Date("2022-06-26"),
-        "deleted_at": new Date("2022-06-26")
+        "delete_at": new Date("2022-06-26")
     },
     {
         "id": 26,
@@ -371,7 +371,7 @@ db.historiales.insertMany([
         "updated_by": 26,
         "created_at": new Date("2022-06-27"),
         "updated_at": new Date("2022-06-27"),
-        "deleted_at": new Date("2022-06-27")
+        "delete_at": new Date("2022-06-27")
     },
     {
         "id": 27,
@@ -383,7 +383,7 @@ db.historiales.insertMany([
         "updated_by": 27,
         "created_at": new Date("2022-06-28"),
         "updated_at": new Date("2022-06-28"),
-        "deleted_at": new Date("2022-06-28")
+        "delete_at": new Date("2022-06-28")
     },
     {
         "id": 28,
@@ -395,7 +395,7 @@ db.historiales.insertMany([
         "updated_by": 28,
         "created_at": new Date("2022-06-29"),
         "updated_at": new Date("2022-06-29"),
-        "deleted_at": new Date("2022-06-29")
+        "delete_at": new Date("2022-06-29")
     },
     {
         "id": 29,
@@ -407,7 +407,7 @@ db.historiales.insertMany([
         "updated_by": 29,
         "created_at": new Date("2022-06-30"),
         "updated_at": new Date("2022-06-30"),
-        "deleted_at": new Date("2022-06-30")
+        "delete_at": new Date("2022-06-30")
     },
     {
         "id": 30,
@@ -419,7 +419,7 @@ db.historiales.insertMany([
         "updated_by": 30,
         "created_at": new Date("2022-07-01"),
         "updated_at": new Date("2022-07-01"),
-        "deleted_at": new Date("2022-07-01")
+        "delete_at": new Date("2022-07-01")
     }
 ]);
 
@@ -472,7 +472,7 @@ db.createCollection("bodegas", {
                     bsonType: ["date", "null"],
                     description: '{"status": "402", "message": "El UPDATED AT de la bodega es un dato OBLIGATORIO y de tipo DATE"}'
                 },
-                deleted_at: {
+                delete_at: {
                     bsonType: ["date", "null"],
                     description: '{"status": "402", "message": "El DELETE AT de la bodega es un dato OBLIGATORIO y de tipo DATE"}'
                 },
@@ -492,7 +492,7 @@ db.bodegas.insertMany([
         "updated_by": 1,
         "created_at": new Date("2022-06-02 15:33:48"),
         "updated_at": new Date("2022-06-02 15:33:48"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 2,
@@ -503,7 +503,7 @@ db.bodegas.insertMany([
         "updated_by": 16,
         "created_at": new Date("2022-06-03 14:25:37"),
         "updated_at": new Date("2022-06-03 14:25:37"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 3,
@@ -514,7 +514,7 @@ db.bodegas.insertMany([
         "updated_by": 2,
         "created_at": new Date("2022-06-04 09:12:15"),
         "updated_at": new Date("2022-06-04 09:12:15"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 4,
@@ -525,7 +525,7 @@ db.bodegas.insertMany([
         "updated_by": 3,
         "created_at": new Date("2022-06-05 17:50:29"),
         "updated_at": new Date("2022-06-05 17:50:29"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 5,
@@ -536,7 +536,7 @@ db.bodegas.insertMany([
         "updated_by": 12,
         "created_at": new Date("2022-06-06 08:40:12"),
         "updated_at": new Date("2022-06-06 08:40:12"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 6,
@@ -547,7 +547,7 @@ db.bodegas.insertMany([
         "updated_by": 4,
         "created_at": new Date("2022-06-07 11:15:55"),
         "updated_at": new Date("2022-06-07 11:15:55"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 7,
@@ -558,7 +558,7 @@ db.bodegas.insertMany([
         "updated_by": 20,
         "created_at": new Date("2022-06-08 16:28:40"),
         "updated_at": new Date("2022-06-08 16:28:40"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 8,
@@ -569,7 +569,7 @@ db.bodegas.insertMany([
         "updated_by": 2,
         "created_at": new Date("2022-06-09 19:05:22"),
         "updated_at": new Date("2022-06-09 19:05:22"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 9,
@@ -580,7 +580,7 @@ db.bodegas.insertMany([
         "updated_by": 5,
         "created_at": new Date("2022-06-10 22:14:11"),
         "updated_at": new Date("2022-06-10 22:14:11"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 10,
@@ -591,7 +591,7 @@ db.bodegas.insertMany([
         "updated_by": 6,
         "created_at": new Date("2022-06-11 14:37:03"),
         "updated_at": new Date("2022-06-11 14:37:03"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 11,
@@ -602,7 +602,7 @@ db.bodegas.insertMany([
         "updated_by": 20,
         "created_at": new Date("2022-06-12 09:23:45"),
         "updated_at": new Date("2022-06-12 09:23:45"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 12,
@@ -613,7 +613,7 @@ db.bodegas.insertMany([
         "updated_by": 1,
         "created_at": new Date("2022-06-13 17:56:28"),
         "updated_at": new Date("2022-06-13 17:56:28"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 13,
@@ -624,7 +624,7 @@ db.bodegas.insertMany([
         "updated_by": 13,
         "created_at": new Date("2022-06-14 10:42:09"),
         "updated_at": new Date("2022-06-14 10:42:09"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 14,
@@ -635,7 +635,7 @@ db.bodegas.insertMany([
         "updated_by": 7,
         "created_at": new Date("2022-06-15 14:21:37"),
         "updated_at": new Date("2022-06-15 14:21:37"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 15,
@@ -646,7 +646,7 @@ db.bodegas.insertMany([
         "updated_by": 20,
         "created_at": new Date("2022-06-16 08:03:52"),
         "updated_at": new Date("2022-06-16 08:03:52"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 16,
@@ -657,7 +657,7 @@ db.bodegas.insertMany([
         "updated_by": 5,
         "created_at": new Date("2022-06-17 17:39:18"),
         "updated_at": new Date("2022-06-17 17:39:18"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 17,
@@ -668,7 +668,7 @@ db.bodegas.insertMany([
         "updated_by": 14,
         "created_at": new Date("2022-06-18 09:48:37"),
         "updated_at": new Date("2022-06-18 09:48:37"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 18,
@@ -679,7 +679,7 @@ db.bodegas.insertMany([
         "updated_by": 8,
         "created_at": new Date("2022-06-19 12:15:59"),
         "updated_at": new Date("2022-06-19 12:15:59"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 19,
@@ -690,7 +690,7 @@ db.bodegas.insertMany([
         "updated_by": 20,
         "created_at": new Date("2022-06-20 14:29:10"),
         "updated_at": new Date("2022-06-20 14:29:10"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 20,
@@ -701,7 +701,7 @@ db.bodegas.insertMany([
         "updated_by": 3,
         "created_at": new Date("2022-06-21 18:07:21"),
         "updated_at": new Date("2022-06-21 18:07:21"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 21,
@@ -712,7 +712,7 @@ db.bodegas.insertMany([
         "updated_by": 15,
         "created_at": new Date("2022-06-22 10:59:33"),
         "updated_at": new Date("2022-06-22 10:59:33"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 22,
@@ -723,7 +723,7 @@ db.bodegas.insertMany([
         "updated_by": 9,
         "created_at": new Date("2022-06-23 15:20:45"),
         "updated_at": new Date("2022-06-23 15:20:45"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 23,
@@ -734,7 +734,7 @@ db.bodegas.insertMany([
         "updated_by": 20,
         "created_at": new Date("2022-06-24 08:17:57"),
         "updated_at": new Date("2022-06-24 08:17:57"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 24,
@@ -745,7 +745,7 @@ db.bodegas.insertMany([
         "updated_by": 4,
         "created_at": new Date("2022-06-25 19:53:08"),
         "updated_at": new Date("2022-06-25 19:53:08"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 25,
@@ -756,7 +756,7 @@ db.bodegas.insertMany([
         "updated_by": 17,
         "created_at": new Date("2022-06-26 11:30:19"),
         "updated_at": new Date("2022-06-26 11:30:19"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 26,
@@ -767,7 +767,7 @@ db.bodegas.insertMany([
         "updated_by": 10,
         "created_at": new Date("2022-06-27 14:42:27"),
         "updated_at": new Date("2022-06-27 14:42:27"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 27,
@@ -778,7 +778,7 @@ db.bodegas.insertMany([
         "updated_by": 20,
         "created_at": new Date("2022-06-28 09:56:35"),
         "updated_at": new Date("2022-06-28 09:56:35"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 28,
@@ -789,7 +789,7 @@ db.bodegas.insertMany([
         "updated_by": 19,
         "created_at": new Date("2022-06-29 17:08:44"),
         "updated_at": new Date("2022-06-29 17:08:44"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 29,
@@ -800,7 +800,7 @@ db.bodegas.insertMany([
         "updated_by": 18,
         "created_at": new Date("2022-06-30 10:27:57"),
         "updated_at": new Date("2022-06-30 10:27:57"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 30,
@@ -811,7 +811,7 @@ db.bodegas.insertMany([
         "updated_by": 11,
         "created_at": new Date("2022-07-01 12:05:06"),
         "updated_at": new Date("2022-07-01 12:05:06"),
-        "deleted_at": null
+        "delete_at": null
     }
 ]);
 
@@ -862,7 +862,7 @@ db.createCollection("inventarios", {
                     bsonType: ["date", "null"],
                     description: '{"status": "402", "message": "El UPDATED AT del inventario es un dato OBLIGATORIO y de tipo DATE"}'
                 },
-                deleted_at: {
+                delete_at: {
                     bsonType: ["date", "null"],
                     description: '{"status": "402", "message": "El DELETE AT del inventario es un dato OBLIGATORIO y de tipo DATE"}'
                 },
@@ -882,7 +882,7 @@ db.inventarios.insertMany([
         "updated_by": 1,
         "created_at": new Date("2023-05-26 01:35:52"),
         "updated_at": new Date("2023-05-26 01:35:52"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 2,
@@ -893,7 +893,7 @@ db.inventarios.insertMany([
         "updated_by": 2,
         "created_at": new Date("2023-05-27 10:18:36"),
         "updated_at": new Date("2023-05-27 10:18:36"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 3,
@@ -904,7 +904,7 @@ db.inventarios.insertMany([
         "updated_by": 3,
         "created_at": new Date("2023-05-28 15:42:17"),
         "updated_at": new Date("2023-05-28 15:42:17"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 4,
@@ -915,7 +915,7 @@ db.inventarios.insertMany([
         "updated_by": 4,
         "created_at": new Date("2023-05-29 21:03:59"),
         "updated_at": new Date("2023-05-29 21:03:59"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 5,
@@ -926,7 +926,7 @@ db.inventarios.insertMany([
         "updated_by": 5,
         "created_at": new Date("2023-05-30 12:14:42"),
         "updated_at": new Date("2023-05-30 12:14:42"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 6,
@@ -937,7 +937,7 @@ db.inventarios.insertMany([
         "updated_by": 6,
         "created_at": new Date("2023-05-31 16:52:25"),
         "updated_at": new Date("2023-05-31 16:52:25"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 7,
@@ -948,7 +948,7 @@ db.inventarios.insertMany([
         "updated_by": 7,
         "created_at": new Date("2023-06-01 09:27:17"),
         "updated_at": new Date("2023-06-01 09:27:17"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 8,
@@ -959,7 +959,7 @@ db.inventarios.insertMany([
         "updated_by": 8,
         "created_at": new Date("2023-06-02 18:05:09"),
         "updated_at": new Date("2023-06-02 18:05:09"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 9,
@@ -970,7 +970,7 @@ db.inventarios.insertMany([
         "updated_by": 9,
         "created_at": new Date("2023-06-03 23:41:52"),
         "updated_at": new Date("2023-06-03 23:41:52"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 10,
@@ -981,7 +981,7 @@ db.inventarios.insertMany([
         "updated_by": 10,
         "created_at": new Date("2023-06-04 15:19:34"),
         "updated_at": new Date("2023-06-04 15:19:34"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 11,
@@ -992,7 +992,7 @@ db.inventarios.insertMany([
         "updated_by": 11,
         "created_at": new Date("2023-06-05 09:07:17"),
         "updated_at": new Date("2023-06-05 09:07:17"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 12,
@@ -1003,7 +1003,7 @@ db.inventarios.insertMany([
         "updated_by": 12,
         "created_at": new Date("2023-06-06 12:55:59"),
         "updated_at": new Date("2023-06-06 12:55:59"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 13,
@@ -1014,7 +1014,7 @@ db.inventarios.insertMany([
         "updated_by": 13,
         "created_at": new Date("2023-06-07 17:33:42"),
         "updated_at": new Date("2023-06-07 17:33:42"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 14,
@@ -1025,7 +1025,7 @@ db.inventarios.insertMany([
         "updated_by": 14,
         "created_at": new Date("2023-06-08 09:21:25"),
         "updated_at": new Date("2023-06-08 09:21:25"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 15,
@@ -1036,7 +1036,7 @@ db.inventarios.insertMany([
         "updated_by": 15,
         "created_at": new Date("2023-06-09 14:59:07"),
         "updated_at": new Date("2023-06-09 14:59:07"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 16,
@@ -1047,7 +1047,7 @@ db.inventarios.insertMany([
         "updated_by": 16,
         "created_at": new Date("2023-06-10 18:36:50"),
         "updated_at": new Date("2023-06-10 18:36:50"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 17,
@@ -1058,7 +1058,7 @@ db.inventarios.insertMany([
         "updated_by": 17,
         "created_at": new Date("2023-06-11 09:12:32"),
         "updated_at": new Date("2023-06-11 09:12:32"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 18,
@@ -1069,7 +1069,7 @@ db.inventarios.insertMany([
         "updated_by": 18,
         "created_at": new Date("2023-06-12 20:50:14"),
         "updated_at": new Date("2023-06-12 20:50:14"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 19,
@@ -1080,7 +1080,7 @@ db.inventarios.insertMany([
         "updated_by": 19,
         "created_at": new Date("2023-06-13 02:28:57"),
         "updated_at": new Date("2023-06-13 02:28:57"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 20,
@@ -1091,7 +1091,7 @@ db.inventarios.insertMany([
         "updated_by": 20,
         "created_at": new Date("2023-06-14 07:06:39"),
         "updated_at": new Date("2023-06-14 07:06:39"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 21,
@@ -1102,7 +1102,7 @@ db.inventarios.insertMany([
         "updated_by": 1,
         "created_at": new Date("2023-06-15 11:44:22"),
         "updated_at": new Date("2023-06-15 11:44:22"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 22,
@@ -1113,7 +1113,7 @@ db.inventarios.insertMany([
         "updated_by": 2,
         "created_at": new Date("2023-06-16 14:22:04"),
         "updated_at": new Date("2023-06-16 14:22:04"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 23,
@@ -1124,7 +1124,7 @@ db.inventarios.insertMany([
         "updated_by": 3,
         "created_at": new Date("2023-06-17 19:59:47"),
         "updated_at": new Date("2023-06-17 19:59:47"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 24,
@@ -1135,7 +1135,7 @@ db.inventarios.insertMany([
         "updated_by": 4,
         "created_at": new Date("2023-06-18 08:37:29"),
         "updated_at": new Date("2023-06-18 08:37:29"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 25,
@@ -1146,7 +1146,7 @@ db.inventarios.insertMany([
         "updated_by": 5,
         "created_at": new Date("2023-06-19 13:15:12"),
         "updated_at": new Date("2023-06-19 13:15:12"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 26,
@@ -1157,7 +1157,7 @@ db.inventarios.insertMany([
         "updated_by": 6,
         "created_at": new Date("2023-06-20 16:52:54"),
         "updated_at": new Date("2023-06-20 16:52:54"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 27,
@@ -1168,7 +1168,7 @@ db.inventarios.insertMany([
         "updated_by": 7,
         "created_at": new Date("2023-06-21 10:28:37"),
         "updated_at": new Date("2023-06-21 10:28:37"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 28,
@@ -1179,7 +1179,7 @@ db.inventarios.insertMany([
         "updated_by": 8,
         "created_at": new Date("2023-06-22 19:06:19"),
         "updated_at": new Date("2023-06-22 19:06:19"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 29,
@@ -1190,7 +1190,7 @@ db.inventarios.insertMany([
         "updated_by": 9,
         "created_at": new Date("2023-06-23 23:43:02"),
         "updated_at": new Date("2023-06-23 23:43:02"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 30,
@@ -1201,7 +1201,7 @@ db.inventarios.insertMany([
         "updated_by": 10,
         "created_at": new Date("2023-06-24 14:20:44"),
         "updated_at": new Date("2023-06-24 14:20:44"),
-        "deleted_at": null
+        "delete_at": null
     }
 ]);
 use("db_bodegas_mongo");
@@ -1251,7 +1251,7 @@ db.createCollection("productos", {
                     bsonType: ["date", "null"],
                     description: '{"status": "402", "message": "El UPDATED AT del producto es un dato OBLIGATORIO y de tipo DATE"}'
                 },
-                deleted_at: {
+                delete_at: {
                     bsonType: ["date", "null"],
                     description: '{"status": "402", "message": "El DELETE AT del producto es un dato OBLIGATORIO y de tipo DATE"}'
                 },
@@ -1270,7 +1270,7 @@ db.productos.insertMany([
         "updated_by": 1,
         "created_at": new Date("2023-06-24 14:20:44"),
         "updated_at": new Date("2023-06-24 14:20:44"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 2,
@@ -1281,7 +1281,7 @@ db.productos.insertMany([
         "updated_by": 2,
         "created_at": new Date("2023-06-25 10:18:36"),
         "updated_at": new Date("2023-06-25 10:18:36"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 3,
@@ -1292,7 +1292,7 @@ db.productos.insertMany([
         "updated_by": 3,
         "created_at": new Date("2023-06-26 15:42:17"),
         "updated_at": new Date("2023-06-26 15:42:17"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 4,
@@ -1303,7 +1303,7 @@ db.productos.insertMany([
         "updated_by": 4,
         "created_at": new Date("2023-06-27 21:03:59"),
         "updated_at": new Date("2023-06-27 21:03:59"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 5,
@@ -1314,7 +1314,7 @@ db.productos.insertMany([
         "updated_by": 5,
         "created_at": new Date("2023-06-28 12:14:42"),
         "updated_at": new Date("2023-06-28 12:14:42"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 6,
@@ -1325,7 +1325,7 @@ db.productos.insertMany([
         "updated_by": 6,
         "created_at": new Date("2023-06-29 16:52:25"),
         "updated_at": new Date("2023-06-29 16:52:25"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 7,
@@ -1336,7 +1336,7 @@ db.productos.insertMany([
         "updated_by": 7,
         "created_at": new Date("2023-06-30 09:27:17"),
         "updated_at": new Date("2023-06-30 09:27:17"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 8,
@@ -1347,7 +1347,7 @@ db.productos.insertMany([
         "updated_by": 8,
         "created_at": new Date("2023-07-01 18:05:09"),
         "updated_at": new Date("2023-07-01 18:05:09"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 9,
@@ -1358,7 +1358,7 @@ db.productos.insertMany([
         "updated_by": 9,
         "created_at": new Date("2023-07-02 23:41:52"),
         "updated_at": new Date("2023-07-02 23:41:52"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 10,
@@ -1369,7 +1369,7 @@ db.productos.insertMany([
         "updated_by": 10,
         "created_at": new Date("2023-07-03 15:19:34"),
         "updated_at": new Date("2023-07-03 15:19:34"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 11,
@@ -1380,7 +1380,7 @@ db.productos.insertMany([
         "updated_by": 11,
         "created_at": new Date("2023-07-04 09:07:17"),
         "updated_at": new Date("2023-07-04 09:07:17"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 12,
@@ -1391,7 +1391,7 @@ db.productos.insertMany([
         "updated_by": 12,
         "created_at": new Date("2023-07-05 12:55:59"),
         "updated_at": new Date("2023-07-05 12:55:59"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 13,
@@ -1402,7 +1402,7 @@ db.productos.insertMany([
         "updated_by": 13,
         "created_at": new Date("2023-07-06 17:33:42"),
         "updated_at": new Date("2023-07-06 17:33:42"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 14,
@@ -1413,7 +1413,7 @@ db.productos.insertMany([
         "updated_by": 14,
         "created_at": new Date("2023-07-07 09:21:25"),
         "updated_at": new Date("2023-07-07 09:21:25"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 15,
@@ -1424,7 +1424,7 @@ db.productos.insertMany([
         "updated_by": 15,
         "created_at": new Date("2023-07-08 14:59:07"),
         "updated_at": new Date("2023-07-08 14:59:07"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 16,
@@ -1435,7 +1435,7 @@ db.productos.insertMany([
         "updated_by": 16,
         "created_at": new Date("2023-07-09 18:36:50"),
         "updated_at": new Date("2023-07-09 18:36:50"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 17,
@@ -1446,7 +1446,7 @@ db.productos.insertMany([
         "updated_by": 17,
         "created_at": new Date("2023-07-10 11:14:32"),
         "updated_at": new Date("2023-07-10 11:14:32"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 18,
@@ -1457,7 +1457,7 @@ db.productos.insertMany([
         "updated_by": 18,
         "created_at": new Date("2023-07-11 20:52:14"),
         "updated_at": new Date("2023-07-11 20:52:14"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 19,
@@ -1468,7 +1468,7 @@ db.productos.insertMany([
         "updated_by": 19,
         "created_at": new Date("2023-07-12 01:29:57"),
         "updated_at": new Date("2023-07-12 01:29:57"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 20,
@@ -1479,7 +1479,7 @@ db.productos.insertMany([
         "updated_by": 20,
         "created_at": new Date("2023-07-13 06:07:39"),
         "updated_at": new Date("2023-07-13 06:07:39"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 21,
@@ -1490,7 +1490,7 @@ db.productos.insertMany([
         "updated_by": 1,
         "created_at": new Date("2023-07-14 10:45:22"),
         "updated_at": new Date("2023-07-14 10:45:22"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 22,
@@ -1501,7 +1501,7 @@ db.productos.insertMany([
         "updated_by": 2,
         "created_at": new Date("2023-07-15 14:23:04"),
         "updated_at": new Date("2023-07-15 14:23:04"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 23,
@@ -1512,7 +1512,7 @@ db.productos.insertMany([
         "updated_by": 3,
         "created_at": new Date("2023-07-16 19:00:47"),
         "updated_at": new Date("2023-07-16 19:00:47"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 24,
@@ -1523,7 +1523,7 @@ db.productos.insertMany([
         "updated_by": 4,
         "created_at": new Date("2023-07-17 08:38:29"),
         "updated_at": new Date("2023-07-17 08:38:29"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 25,
@@ -1534,7 +1534,7 @@ db.productos.insertMany([
         "updated_by": 5,
         "created_at": new Date("2023-07-18 13:16:12"),
         "updated_at": new Date("2023-07-18 13:16:12"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 26,
@@ -1545,7 +1545,7 @@ db.productos.insertMany([
         "updated_by": 6,
         "created_at": new Date("2023-07-19 16:53:54"),
         "updated_at": new Date("2023-07-19 16:53:54"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 27,
@@ -1556,7 +1556,7 @@ db.productos.insertMany([
         "updated_by": 7,
         "created_at": new Date("2023-07-20 10:29:37"),
         "updated_at": new Date("2023-07-20 10:29:37"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 28,
@@ -1567,7 +1567,7 @@ db.productos.insertMany([
         "updated_by": 8,
         "created_at": new Date("2023-07-21 19:07:19"),
         "updated_at": new Date("2023-07-21 19:07:19"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 29,
@@ -1578,7 +1578,7 @@ db.productos.insertMany([
         "updated_by": 9,
         "created_at": new Date("2023-07-22 23:44:02"),
         "updated_at": new Date("2023-07-22 23:44:02"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 30,
@@ -1589,7 +1589,7 @@ db.productos.insertMany([
         "updated_by": 10,
         "created_at": new Date("2023-07-23 14:21:44"),
         "updated_at": new Date("2023-07-23 14:21:44"),
-        "deleted_at": null
+        "delete_at": null
     }
 ]);
 
@@ -1651,7 +1651,7 @@ db.createCollection("users",{
                     bsonType:  ["date", "null"],
                     description: '{"status": "402", "message": "El UPDATED AT del usuario es un dato OBLIGATORIO y de tipo DATE"}'
                 },
-                deleted_at: {
+                delete_at: {
                     bsonType: ["date", "null"],
                     description: '{"status": "402", "message": "El DELETED AT del usuario es un dato opcional y podría ser de tipo DATE"}'
                 },
@@ -1675,7 +1675,7 @@ db.users.insertMany([
         "password": "12345",
         "created_at": new Date("2023-06-24 14:20:44"),
         "updated_at": new Date("2023-06-24 14:20:44"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 2,
@@ -1689,7 +1689,7 @@ db.users.insertMany([
         "password": "abcdef",
         "created_at": new Date("2023-06-25 11:35:18"),
         "updated_at": new Date("2023-06-25 11:35:18"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 3,
@@ -1703,7 +1703,7 @@ db.users.insertMany([
         "password": "qwerty",
         "created_at": new Date("2023-06-26 16:55:32"),
         "updated_at": new Date("2023-06-26 16:55:32"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 4,
@@ -1717,7 +1717,7 @@ db.users.insertMany([
         "password": "abc123",
         "created_at": new Date("2023-06-27 19:45:12"),
         "updated_at": new Date("2023-06-27 19:45:12"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 5,
@@ -1731,7 +1731,7 @@ db.users.insertMany([
         "password": "456789",
         "created_at": new Date("2023-06-28 22:15:59"),
         "updated_at": new Date("2023-06-28 22:15:59"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 6,
@@ -1745,7 +1745,7 @@ db.users.insertMany([
         "password": "password1",
         "created_at": new Date("2023-06-29 01:40:27"),
         "updated_at": new Date("2023-06-29 01:40:27"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 7,
@@ -1759,7 +1759,7 @@ db.users.insertMany([
         "password": "pass123",
         "created_at": new Date("2023-06-30 10:05:14"),
         "updated_at": new Date("2023-06-30 10:05:14"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 8,
@@ -1773,7 +1773,7 @@ db.users.insertMany([
         "password": "abcxyz",
         "created_at": new Date("2023-07-01 13:30:42"),
         "updated_at": new Date("2023-07-01 13:30:42"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 9,
@@ -1787,7 +1787,7 @@ db.users.insertMany([
         "password": "password123",
         "created_at": new Date("2023-07-02 15:55:53"),
         "updated_at": new Date("2023-07-02 15:55:53"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 10,
@@ -1801,7 +1801,7 @@ db.users.insertMany([
         "password": "maria123",
         "created_at": new Date("2023-07-03 18:25:07"),
         "updated_at": new Date("2023-07-03 18:25:07"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 11,
@@ -1815,7 +1815,7 @@ db.users.insertMany([
         "password": "carlos456",
         "created_at": new Date("2023-07-04 19:10:39"),
         "updated_at": new Date("2023-07-04 19:10:39"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 12,
@@ -1829,7 +1829,7 @@ db.users.insertMany([
         "password": "laura567",
         "created_at": new Date("2023-07-05 20:20:55"),
         "updated_at": new Date("2023-07-05 20:20:55"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 13,
@@ -1843,7 +1843,7 @@ db.users.insertMany([
         "password": "diego123",
         "created_at": new Date("2023-07-06 14:30:20"),
         "updated_at": new Date("2023-07-06 14:30:20"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 14,
@@ -1857,7 +1857,7 @@ db.users.insertMany([
         "password": "ana567",
         "created_at": new Date("2023-07-07 17:05:49"),
         "updated_at": new Date("2023-07-07 17:05:49"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 15,
@@ -1871,7 +1871,7 @@ db.users.insertMany([
         "password": "juan567",
         "created_at": new Date("2023-07-08 18:40:30"),
         "updated_at": new Date("2023-07-08 18:40:30"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 16,
@@ -1885,7 +1885,7 @@ db.users.insertMany([
         "password": "maria567",
         "created_at": new Date("2023-07-09 22:15:18"),
         "updated_at": new Date("2023-07-09 22:15:18"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 17,
@@ -1899,7 +1899,7 @@ db.users.insertMany([
         "password": "pedro567",
         "created_at": new Date("2023-07-10 20:40:12"),
         "updated_at": new Date("2023-07-10 20:40:12"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 18,
@@ -1913,7 +1913,7 @@ db.users.insertMany([
         "password": "ana789",
         "created_at": new Date("2023-07-11 18:35:27"),
         "updated_at": new Date("2023-07-11 18:35:27"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 19,
@@ -1927,7 +1927,7 @@ db.users.insertMany([
         "password": "carlos789",
         "created_at": new Date("2023-07-12 16:25:38"),
         "updated_at": new Date("2023-07-12 16:25:38"),
-        "deleted_at": null
+        "delete_at": null
     },
     {
         "id": 20,
@@ -1941,6 +1941,6 @@ db.users.insertMany([
         "password": "laura789",
         "created_at": new Date("2023-07-13 14:30:45"),
         "updated_at": new Date("2023-07-13 14:30:45"),
-        "deleted_at": null
+        "delete_at": null
     }
 ]);

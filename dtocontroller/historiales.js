@@ -21,11 +21,11 @@ export class Historial {
         this.updated_by = 0;
         this.created_at = "1991-01-01";
         this.updated_at = "1991-01-01";
-        this.deleted_at = "1991-01-01";
+        this.delete_at = "1991-01-01";
     }
 }
 __decorate([
-    Expose({ name: 'historialId' }),
+    Expose({ name: 'id' }),
     IsDefined({ message: () => { throw { status: 422, message: `The parameter 'historialId' is required` }; } }),
     __metadata("design:type", Number)
 ], Historial.prototype, "id", void 0);
@@ -35,46 +35,46 @@ __decorate([
     __metadata("design:type", Number)
 ], Historial.prototype, "cantidad", void 0);
 __decorate([
-    Expose({ name: 'bodegaOrigen' }),
+    Expose({ name: 'id_bodega_origen' }),
     IsDefined({ message: () => { throw { status: 422, message: `The parameter 'bodegaOrigen' is required` }; } }),
     __metadata("design:type", Number)
 ], Historial.prototype, "id_bodega_origen", void 0);
 __decorate([
-    Expose({ name: 'bodegaDestino' }),
+    Expose({ name: 'id_bodega_destino' }),
     IsDefined({ message: () => { throw { status: 422, message: `The parameter 'bodegaDestino' is required` }; } }),
     __metadata("design:type", Number)
 ], Historial.prototype, "id_bodega_destino", void 0);
 __decorate([
-    Expose({ name: 'inventarioId' }),
+    Expose({ name: 'id_inventario' }),
     IsDefined({ message: () => { throw { status: 422, message: `The parameter 'inventarioId' is required` }; } }),
     __metadata("design:type", Number)
 ], Historial.prototype, "id_inventario", void 0);
 __decorate([
-    Expose({ name: 'createdBy' }),
+    Expose({ name: 'created_by' }),
     IsDefined({ message: () => { throw { status: 422, message: `The parameter 'createdBy' is required` }; } }),
     __metadata("design:type", Number)
 ], Historial.prototype, "created_by", void 0);
 __decorate([
-    Expose({ name: 'updatedBy' }),
+    Expose({ name: 'updated_by' }),
     IsDefined({ message: () => { throw { status: 422, message: `The parameter 'updatedBy' is required` }; } }),
     __metadata("design:type", Number)
 ], Historial.prototype, "updated_by", void 0);
 __decorate([
-    Expose({ name: 'createdAt' }),
+    Expose({ name: 'created_at' }),
     IsString({ message: `The parameter 'createdAt' must be a string` }),
     Matches(/^\d{4}-\d{2}-\d{2$}/, { message: 'Error' }),
     __metadata("design:type", String)
 ], Historial.prototype, "created_at", void 0);
 __decorate([
-    Expose({ name: 'updatedAt' }),
+    Expose({ name: 'updated_at' }),
     IsString({ message: `The parameter 'updatedAt' must be a string` }),
     Matches(/^\d{4}-\d{2}-\d{2$}/, { message: 'Error' }),
     __metadata("design:type", String)
 ], Historial.prototype, "updated_at", void 0);
 __decorate([
-    Expose({ name: 'deletedAt' }),
+    Expose({ name: 'delete_at' }),
     IsString({ message: `The parameter 'deletedAt' must be a string` }),
     Matches(/^\d{4}-\d{2}-\d{2$}/, { message: 'Error' }),
     __metadata("design:type", String)
-], Historial.prototype, "deleted_at", void 0);
+], Historial.prototype, "delete_at", void 0);
 ;

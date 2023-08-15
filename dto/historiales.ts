@@ -2,7 +2,7 @@ import { Expose, Transform } from 'class-transformer';
 import { IsDefined, IsString, Matches} from 'class-validator';
 export class Historial {
 
-    @Expose({ name: 'historialId' })
+    @Expose({ name: 'id' })
     @IsDefined({ message: () => { throw { status: 422, message: `The parameter 'historialId' is required` } } })
     id: number;
 
@@ -10,40 +10,40 @@ export class Historial {
     @IsDefined({ message: () => { throw { status: 422, message: `The parameter 'cantidad' is required` } } })
     cantidad: number;
 
-    @Expose({ name: 'bodegaOrigen' })
+    @Expose({ name: 'id_bodega_origen' })
     @IsDefined({ message: () => { throw { status: 422, message: `The parameter 'bodegaOrigen' is required` } } })
     id_bodega_origen: number;
 
-    @Expose({ name: 'bodegaDestino' })
+    @Expose({ name: 'id_bodega_destino' })
     @IsDefined({ message: () => { throw { status: 422, message: `The parameter 'bodegaDestino' is required` } } })
     id_bodega_destino: number;
 
-    @Expose({ name: 'inventarioId' })
+    @Expose({ name: 'id_inventario' })
     @IsDefined({ message: () => { throw { status: 422, message: `The parameter 'inventarioId' is required` } } })
     id_inventario: number;
 
-    @Expose({ name: 'createdBy' })
+    @Expose({ name: 'created_by' })
     @IsDefined({ message: () => { throw { status: 422, message: `The parameter 'createdBy' is required` } } })
     created_by: number;
 
-    @Expose({ name: 'updatedBy' })
+    @Expose({ name: 'updated_by' })
     @IsDefined({ message: () => { throw { status: 422, message: `The parameter 'updatedBy' is required` } } })
     updated_by: number;
 
-    @Expose({ name: 'createdAt' })
+    @Expose({ name: 'created_at' })
     @IsString ({ message: `The parameter 'createdAt' must be a string`})
     @Matches(/^\d{4}-\d{2}-\d{2$}/,{message: 'Error'})
     created_at: string;
 
-    @Expose({ name: 'updatedAt' })
+    @Expose({ name: 'updated_at' })
     @IsString ({ message: `The parameter 'updatedAt' must be a string`})
     @Matches(/^\d{4}-\d{2}-\d{2$}/,{message: 'Error'})
     updated_at: string;
 
-    @Expose({ name: 'deletedAt' })
+    @Expose({ name: 'delete_at' })
     @IsString ({ message: `The parameter 'deletedAt' must be a string`})
     @Matches(/^\d{4}-\d{2}-\d{2$}/,{message: 'Error'})
-    deleted_at: string;
+    delete_at: string;
 
     constructor(data: Partial<Historial>) {
         Object.assign(this, data);
@@ -56,7 +56,7 @@ export class Historial {
         this.updated_by = 0;
         this.created_at = "1991-01-01";
         this.updated_at = "1991-01-01";
-        this.deleted_at = "1991-01-01";
+        this.delete_at = "1991-01-01";
         
     }
 };

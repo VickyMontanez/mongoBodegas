@@ -1,16 +1,13 @@
 import express from "express";
-import {
-    ObjectId
-} from "mongodb";
-import {
-    conx
-} from "../db_mg/atlas.js";
+import { ObjectId} from "mongodb";
+import {conx} from "../db_mg/atlas.js";
+import { limitQuery } from "../limit/config.js";
 
 const appHis = express();
 appHis.use(express.json());
 
 //Get ALL the Documents in the Collection
-appHis.get("/", async (req, res) => {
+appHis.get("/", limitQuery(), async (req, res) => {
     let db = await conx();
     let colleccion = db.collection("historiales");
     let result = await colleccion.find({}).toArray();
@@ -25,7 +22,7 @@ appHis.get("/", async (req, res) => {
 });
 
 //Get Document by Id
-appHis.get("/:id", async (req, res) => {
+appHis.get("/:id", limitQuery(), async (req, res) => {
     try {
         let id = parseInt(req.params.id);
         let db = await conx();
@@ -52,9 +49,10 @@ appHis.get("/:id", async (req, res) => {
 });
 
 //Post a Document into a Collection
-appHis.post("/insertOne", async (req, res) => {
+appHis.post("/insertOne", limitQuery(), async (req, res) => {
     try {
-        const requiredFields = ['id', 'cantidad', 'id_bodega_origen', 'id_bodega_destino', 'id_inventario', 'created_by', 'updated_by'];
+        const requiredFields = ['id', 'cantidad', 'id_bodega_origen', 'id_bodega_destino', 'id_inventario', 'created_by', 'updated_by']
+
         if (requiredFields.some(field => !req.body[field])) {
             return res.status(400).json({
                 status: 400,
@@ -84,7 +82,7 @@ appHis.post("/insertOne", async (req, res) => {
 });
 
 //Post Many Documents into a Collection
-appHis.post("/insertMany", async (req, res) => {
+appHis.post("/insertMany", limitQuery(), async (req, res) => {
     try {
         const requiredFields = ['id', 'cantidad', 'id_bodega_origen', 'id_bodega_destino', 'id_inventario', 'created_by', 'updated_by'];
 
@@ -132,7 +130,7 @@ appHis.post("/insertMany", async (req, res) => {
 });
 
 //Update One Document by id
-appHis.put("/updateOne/:id", async (req, res) => {
+appHis.put("/updateOne/:id", limitQuery(), async (req, res) => {
     try {
         let id = parseInt(req.params.id);
         const requiredFields = ['id', 'cantidad', 'id_bodega_origen', 'id_bodega_destino', 'id_inventario', 'created_by', 'updated_by'];
@@ -170,7 +168,7 @@ appHis.put("/updateOne/:id", async (req, res) => {
 });
 
 //Update Many Documents by Id
-appHis.put("/updateMany/:id", async (req, res) => {
+appHis.put("/updateMany/:id", limitQuery(), async (req, res) => {
     try {
         let id = parseInt(req.params.id);
         const requiredFields = ['id', 'cantidad', 'id_bodega_origen', 'id_bodega_destino', 'id_inventario', 'created_by', 'updated_by'];
@@ -208,7 +206,7 @@ appHis.put("/updateMany/:id", async (req, res) => {
 });
 
 //Delete One Document By Id
-appHis.delete("/deleteOne/:id", async (req, res) => {
+appHis.delete("/deleteOne/:id", limitQuery(), async (req, res) => {
     try {
         let id = parseInt(req.params.id);
         const db = await conx();
@@ -231,7 +229,7 @@ appHis.delete("/deleteOne/:id", async (req, res) => {
 });
 
 //Delete Many Documents by Id
-appHis.delete("/deleteMany/:id", async (req, res) => {
+appHis.delete("/deleteMany/:id", limitQuery(), async (req, res) => {
     try {
         let id = parseInt(req.params.id);
         const db = await conx();
