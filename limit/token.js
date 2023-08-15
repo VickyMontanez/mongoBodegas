@@ -54,5 +54,6 @@ appVerify.use("/", async(req,res,next)=>{
 
 export {
     appToken,
-    appVerify
+    appVerify,
+    DTO
 };

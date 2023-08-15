@@ -68,6 +68,7 @@ appHis.post("/insertOne", limitQuery(), appMiddlewareVerifyHistoriales, appDTODa
             ...req.body,
             created_at: new Date(req.body.created_at),
             updated_at: new Date(req.body.updated_at),
+            delete_at: new Date(req.body.delete_at),
         });
         res.status(201).json({
             satus: 201,
@@ -149,6 +150,7 @@ appHis.put("/updateOne/:id", limitQuery(), appMiddlewareVerifyHistoriales, appDT
                 ...req.body,
                 created_at: new Date(req.body.created_at),
                 updated_at: new Date(req.body.updated_at),
+                delete_at: new Date(req.body.delete_at)
             }
         };
         await collection.updateOne({

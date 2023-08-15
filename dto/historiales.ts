@@ -32,17 +32,17 @@ export class Historial {
 
     @Expose({ name: 'created_at' })
     @IsString ({ message: `The parameter 'createdAt' must be a string`})
-    @Matches(/^\d{4}-\d{2}-\d{2$}/,{message: 'Error'})
+    @Matches(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,3})?Z$/,{message: 'Error'})
     created_at: string;
 
     @Expose({ name: 'updated_at' })
     @IsString ({ message: `The parameter 'updatedAt' must be a string`})
-    @Matches(/^\d{4}-\d{2}-\d{2$}/,{message: 'Error'})
+    @Matches(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,3})?Z$/,{message: 'Error'})
     updated_at: string;
 
     @Expose({ name: 'delete_at' })
     @IsString ({ message: `The parameter 'deletedAt' must be a string`})
-    @Matches(/^\d{4}-\d{2}-\d{2$}/,{message: 'Error'})
+    @Matches(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,3})?Z$/,{message: 'Error'})
     delete_at: string;
 
     constructor(data: Partial<Historial>) {
@@ -54,9 +54,9 @@ export class Historial {
         this.id_inventario = 0;
         this.created_by = 0;
         this.updated_by = 0;
-        this.created_at = "1991-01-01";
-        this.updated_at = "1991-01-01";
-        this.delete_at = "1991-01-01";
+        this.created_at = "";
+        this.updated_at = "";
+        this.delete_at = "";
         
     }
 };

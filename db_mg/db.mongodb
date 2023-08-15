@@ -41,16 +41,16 @@ db.createCollection("historiales", {
                     description: '{"status": "402", "message": "El UPDATED BY del historial es un dato OBLIGATORIO y de tipo NUMERICO"}'
                 },
                 created_at: {
-                    bsonType: ["date", "null"],
+                    bsonType: "date",
                     description: '{"status": "402", "message": "El CREATED AT del historial es un dato OBLIGATORIO y de tipo DATE"}'
 
                 },
                 updated_at: {
-                    bsonType: ["date", "null"],
+                    bsonType: "date",
                     description: '{"status": "402", "message": "El UPDATED AT del historial es un dato OBLIGATORIO y de tipo DATE"}'
                 },
                 delete_at: {
-                    bsonType: ["date", "null"],
+                    bsonType: "date",
                     description: '{"status": "402", "message": "El DELETE AT del historial es un dato OBLIGATORIO y de tipo DATE"}'
                 },
             },
@@ -68,9 +68,9 @@ db.historiales.insertMany([
         "id_inventario": 1,
         "created_by": 1,
         "updated_by": 2,
-        "created_at": new Date("2022-06-02"),
-        "updated_at": new Date("2022-06-02"),
-        "delete_at": new Date("2022-06-02")
+        "created_at": ISODate("2022-06-02"),
+        "updated_at": ISODate("2022-06-02"),
+        "delete_at": ISODate("2022-06-02")
     },
     {
         "id": 2,
@@ -80,10 +80,10 @@ db.historiales.insertMany([
         "id_inventario": 2,
         "created_by": 2,
         "updated_by": 2,
-        "created_at": new Date("2022-06-03"),
-        "updated_at": new Date("2022-06-03"),
-        "delete_at": new Date("2022-06-03")
-    },
+        "created_at": ISODate("2022-06-03"),
+        "updated_at": ISODate("2022-06-03"),
+        "delete_at": ISODate("2022-06-03")
+    }/* ,
     {
         "id": 3,
         "cantidad": 2,
@@ -420,7 +420,7 @@ db.historiales.insertMany([
         "created_at": new Date("2022-07-01"),
         "updated_at": new Date("2022-07-01"),
         "delete_at": new Date("2022-07-01")
-    }
+    } */
 ]);
 
 use("db_bodegas_mongo");
