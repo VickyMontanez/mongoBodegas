@@ -2,12 +2,13 @@ import express from "express";
 import { ObjectId} from "mongodb";
 import {conx} from "../db_mg/atlas.js";
 import { limitQuery } from "../limit/config.js";
+import {appMiddlewareVerifyHistoriales, appDTOData} from "../middleware/historiales.js";
 
 const appHis = express();
 appHis.use(express.json());
 
 //Get ALL the Documents in the Collection
-appHis.get("/", limitQuery(), async (req, res) => {
+appHis.get("/", limitQuery(), appMiddlewareVerifyHistoriales, async (req, res) => {
     let db = await conx();
     let colleccion = db.collection("historiales");
     let result = await colleccion.find({}).toArray();
@@ -22,7 +23,7 @@ appHis.get("/", limitQuery(), async (req, res) => {
 });
 
 //Get Document by Id
-appHis.get("/:id", limitQuery(), async (req, res) => {
+appHis.get("/:id", limitQuery(), appMiddlewareVerifyHistoriales,async (req, res) => {
     try {
         let id = parseInt(req.params.id);
         let db = await conx();
@@ -49,7 +50,7 @@ appHis.get("/:id", limitQuery(), async (req, res) => {
 });
 
 //Post a Document into a Collection
-appHis.post("/insertOne", limitQuery(), async (req, res) => {
+appHis.post("/insertOne", limitQuery(), appMiddlewareVerifyHistoriales, appDTOData, async (req, res) => {
     try {
         const requiredFields = ['id', 'cantidad', 'id_bodega_origen', 'id_bodega_destino', 'id_inventario', 'created_by', 'updated_by']
 
@@ -82,7 +83,7 @@ appHis.post("/insertOne", limitQuery(), async (req, res) => {
 });
 
 //Post Many Documents into a Collection
-appHis.post("/insertMany", limitQuery(), async (req, res) => {
+appHis.post("/insertMany", limitQuery(), appMiddlewareVerifyHistoriales, appDTOData, async (req, res) => {
     try {
         const requiredFields = ['id', 'cantidad', 'id_bodega_origen', 'id_bodega_destino', 'id_inventario', 'created_by', 'updated_by'];
 
@@ -130,7 +131,7 @@ appHis.post("/insertMany", limitQuery(), async (req, res) => {
 });
 
 //Update One Document by id
-appHis.put("/updateOne/:id", limitQuery(), async (req, res) => {
+appHis.put("/updateOne/:id", limitQuery(), appMiddlewareVerifyHistoriales, appDTOData, async (req, res) => {
     try {
         let id = parseInt(req.params.id);
         const requiredFields = ['id', 'cantidad', 'id_bodega_origen', 'id_bodega_destino', 'id_inventario', 'created_by', 'updated_by'];
@@ -168,7 +169,7 @@ appHis.put("/updateOne/:id", limitQuery(), async (req, res) => {
 });
 
 //Update Many Documents by Id
-appHis.put("/updateMany/:id", limitQuery(), async (req, res) => {
+appHis.put("/updateMany/:id", limitQuery(), appMiddlewareVerifyHistoriales, appDTOData, async (req, res) => {
     try {
         let id = parseInt(req.params.id);
         const requiredFields = ['id', 'cantidad', 'id_bodega_origen', 'id_bodega_destino', 'id_inventario', 'created_by', 'updated_by'];
@@ -206,7 +207,7 @@ appHis.put("/updateMany/:id", limitQuery(), async (req, res) => {
 });
 
 //Delete One Document By Id
-appHis.delete("/deleteOne/:id", limitQuery(), async (req, res) => {
+appHis.delete("/deleteOne/:id", limitQuery(), appMiddlewareVerifyHistoriales, async (req, res) => {
     try {
         let id = parseInt(req.params.id);
         const db = await conx();
@@ -229,7 +230,7 @@ appHis.delete("/deleteOne/:id", limitQuery(), async (req, res) => {
 });
 
 //Delete Many Documents by Id
-appHis.delete("/deleteMany/:id", limitQuery(), async (req, res) => {
+appHis.delete("/deleteMany/:id", limitQuery(), appMiddlewareVerifyHistoriales, async (req, res) => {
     try {
         let id = parseInt(req.params.id);
         const db = await conx();
