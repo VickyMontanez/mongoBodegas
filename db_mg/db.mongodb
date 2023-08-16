@@ -7,7 +7,7 @@ db.createCollection("historiales", {
     validator: {
         $jsonSchema: {
             bsonType: 'object',
-            required: ['id', 'cantidad', 'id_bodega_origen', 'id_bodega_destino', 'id_inventario', "created_by", "updated_by"],
+            required: ['id', 'cantidad', 'id_bodega_origen', 'id_bodega_destino', 'id_inventario', "created_by", "updated_by", "created_at", "updated_at"],
             properties: {
                 _id: {
                     bsonType: 'objectId',
@@ -48,11 +48,7 @@ db.createCollection("historiales", {
                 updated_at: {
                     bsonType: "date",
                     description: '{"status": "402", "message": "El UPDATED AT del historial es un dato OBLIGATORIO y de tipo DATE"}'
-                },
-                delete_at: {
-                    bsonType: "date",
-                    description: '{"status": "402", "message": "El DELETE AT del historial es un dato OBLIGATORIO y de tipo DATE"}'
-                },
+                }
             },
         }
     }
@@ -69,8 +65,7 @@ db.historiales.insertMany([
         "created_by": 1,
         "updated_by": 2,
         "created_at": ISODate("2022-06-02"),
-        "updated_at": ISODate("2022-06-02"),
-        "delete_at": ISODate("2022-06-02")
+        "updated_at": ISODate("2022-06-02")
     },
     {
         "id": 2,
@@ -81,8 +76,7 @@ db.historiales.insertMany([
         "created_by": 2,
         "updated_by": 2,
         "created_at": ISODate("2022-06-03"),
-        "updated_at": ISODate("2022-06-03"),
-        "delete_at": ISODate("2022-06-03")
+        "updated_at": ISODate("2022-06-03")
     }/* ,
     {
         "id": 3,
@@ -93,9 +87,7 @@ db.historiales.insertMany([
         "created_by": 3,
         "updated_by": 3,
         "created_at": new Date("2022-06-04"),
-        "updated_at": new Date("2022-06-04"),
-        "delete_at": new Date("2022-06-04")
-
+        "updated_at": new Date("2022-06-04")
     },
     {
         "id": 4,
@@ -432,7 +424,7 @@ db.createCollection("bodegas", {
         $jsonSchema: {
             bsonType: 'object',
             additionalProperties: false,
-            required: ["id", "nombre", "id_responsable", "estado", "created_by", "updated_by"],
+            required: ["id", "nombre", "id_responsable", "estado", "created_by", "updated_by", "created_at", "u"],
             properties: {
                 _id: {
                     bsonType: 'objectId',
@@ -471,11 +463,7 @@ db.createCollection("bodegas", {
                 updated_at: {
                     bsonType: ["date", "null"],
                     description: '{"status": "402", "message": "El UPDATED AT de la bodega es un dato OBLIGATORIO y de tipo DATE"}'
-                },
-                delete_at: {
-                    bsonType: ["date", "null"],
-                    description: '{"status": "402", "message": "El DELETE AT de la bodega es un dato OBLIGATORIO y de tipo DATE"}'
-                },
+                }
             },
         }
     }
