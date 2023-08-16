@@ -41,13 +41,13 @@ export class Historial {
     @Expose({ name: 'created_at' })
     @IsDefined({ message: 'The parameter "createdAt" is required' })
     @IsString({ message: 'The parameter "createdAt" must be a string' })
-    @Matches(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,3})?Z$/, { message: 'The parameter "createdAt" has an invalid format' })
+    @Matches(/^\d{4}-\d{2}-\d{2}$/, { message: 'The parameter "createdAt" has an invalid format' })
     created_at: Date;
 
     @Expose({ name: 'updated_at' })
     @IsDefined({ message: 'The parameter "updatedAt" is required' })
     @IsString({ message: 'The parameter "updatedAt" must be a string' })
-    @Matches(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,3})?Z$/, { message: 'The parameter "updatedAt" has an invalid format' })
+    @Matches(/^\d{4}-\d{2}-\d{2}$/, { message: 'The parameter "updatedAt" has an invalid format' })
     updated_at: Date;
 
     constructor(data: Partial<Historial>) {

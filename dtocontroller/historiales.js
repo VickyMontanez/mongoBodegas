@@ -69,13 +69,13 @@ __decorate([
     Expose({ name: 'created_at' }),
     IsDefined({ message: 'The parameter "createdAt" is required' }),
     IsString({ message: 'The parameter "createdAt" must be a string' }),
-    Matches(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,3})?Z$/, { message: 'The parameter "createdAt" has an invalid format' }),
+    Matches(/^\d{4}-\d{2}-\d{2}$/, { message: 'The parameter "createdAt" has an invalid format' }),
     __metadata("design:type", Date)
 ], Historial.prototype, "created_at", void 0);
 __decorate([
     Expose({ name: 'updated_at' }),
     IsDefined({ message: 'The parameter "updatedAt" is required' }),
     IsString({ message: 'The parameter "updatedAt" must be a string' }),
-    Matches(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d{1,3})?Z$/, { message: 'The parameter "updatedAt" has an invalid format' }),
+    Matches(/^\d{4}-\d{2}-\d{2}$/, { message: 'The parameter "updatedAt" has an invalid format' }),
     __metadata("design:type", Date)
 ], Historial.prototype, "updated_at", void 0);

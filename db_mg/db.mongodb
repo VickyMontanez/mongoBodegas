@@ -77,7 +77,7 @@ db.historiales.insertMany([
         "updated_by": 2,
         "created_at": ISODate("2022-06-03"),
         "updated_at": ISODate("2022-06-03")
-    }/* ,
+    },
     {
         "id": 3,
         "cantidad": 2,
@@ -86,8 +86,8 @@ db.historiales.insertMany([
         "id_inventario": 3,
         "created_by": 3,
         "updated_by": 3,
-        "created_at": new Date("2022-06-04"),
-        "updated_at": new Date("2022-06-04")
+        "created_at": ISODate("2022-06-04"),
+        "updated_at": ISODate("2022-06-04")
     },
     {
         "id": 4,
@@ -97,9 +97,8 @@ db.historiales.insertMany([
         "id_inventario": 4,
         "created_by": 4,
         "updated_by": 4,
-        "created_at": new Date("2022-06-05"),
-        "updated_at": new Date("2022-06-05"),
-        "delete_at": new Date("2022-06-05")
+        "created_at": ISODate("2022-06-05"),
+        "updated_at": ISODate("2022-06-05")
     },
     {
         "id": 5,
@@ -109,9 +108,8 @@ db.historiales.insertMany([
         "id_inventario": 5,
         "created_by": 5,
         "updated_by": 5,
-        "created_at": new Date("2022-06-06"),
-        "updated_at": new Date("2022-06-06"),
-        "delete_at": new Date("2022-06-06")
+        "created_at": ISODate("2022-06-06"),
+        "updated_at": ISODate("2022-06-06")
     },
     {
         "id": 6,
@@ -121,9 +119,8 @@ db.historiales.insertMany([
         "id_inventario": 6,
         "created_by": 6,
         "updated_by": 6,
-        "created_at": new Date("2022-06-07"),
-        "updated_at": new Date("2022-06-07"),
-        "delete_at": new Date("2022-06-07")
+        "created_at": ISODate("2022-06-07"),
+        "updated_at": ISODate("2022-06-07")
     },
     {
         "id": 7,
@@ -133,9 +130,8 @@ db.historiales.insertMany([
         "id_inventario": 7,
         "created_by": 7,
         "updated_by": 7,
-        "created_at": new Date("2022-06-08"),
-        "updated_at": new Date("2022-06-08"),
-        "delete_at": new Date("2022-06-08")
+        "created_at": ISODate("2022-06-08"),
+        "updated_at": ISODate("2022-06-08")
     },
     {
         "id": 8,
@@ -145,9 +141,8 @@ db.historiales.insertMany([
         "id_inventario": 8,
         "created_by": 8,
         "updated_by": 8,
-        "created_at": new Date("2022-06-09"),
-        "updated_at": new Date("2022-06-09"),
-        "delete_at": new Date("2022-06-09")
+        "created_at": ISODate("2022-06-09"),
+        "updated_at": ISODate("2022-06-09")
     },
     {
         "id": 9,
@@ -157,9 +152,8 @@ db.historiales.insertMany([
         "id_inventario": 9,
         "created_by": 9,
         "updated_by": 9,
-        "created_at": new Date("2022-06-10"),
-        "updated_at": new Date("2022-06-10"),
-        "delete_at": new Date("2022-06-10")
+        "created_at": ISODate("2022-06-10"),
+        "updated_at": ISODate("2022-06-10")
     },
     {
         "id": 10,
@@ -169,9 +163,8 @@ db.historiales.insertMany([
         "id_inventario": 10,
         "created_by": 10,
         "updated_by": 10,
-        "created_at": new Date("2022-06-11"),
-        "updated_at": new Date("2022-06-11"),
-        "delete_at": new Date("2022-06-11")
+        "created_at": ISODate("2022-06-11"),
+        "updated_at": ISODate("2022-06-11")
     },
     {
         "id": 11,
@@ -181,9 +174,8 @@ db.historiales.insertMany([
         "id_inventario": 11,
         "created_by": 11,
         "updated_by": 11,
-        "created_at": new Date("2022-06-12"),
-        "updated_at": new Date("2022-06-12"),
-        "delete_at": new Date("2022-06-12")
+        "created_at": ISODate("2022-06-12"),
+        "updated_at": ISODate("2022-06-12")
     },
     {
         "id": 12,
@@ -193,9 +185,8 @@ db.historiales.insertMany([
         "id_inventario": 12,
         "created_by": 12,
         "updated_by": 12,
-        "created_at": new Date("2022-06-13"),
-        "updated_at": new Date("2022-06-13"),
-        "delete_at": new Date("2022-06-13")
+        "created_at": ISODate("2022-06-13"),
+        "updated_at": ISODate("2022-06-13")
     },
     {
         "id": 13,
@@ -205,9 +196,8 @@ db.historiales.insertMany([
         "id_inventario": 13,
         "created_by": 13,
         "updated_by": 13,
-        "created_at": new Date("2022-06-14"),
-        "updated_at": new Date("2022-06-14"),
-        "delete_at": new Date("2022-06-14")
+        "created_at": ISODate("2022-06-14"),
+        "updated_at": ISODate("2022-06-14")
     },
     {
         "id": 14,
@@ -217,9 +207,8 @@ db.historiales.insertMany([
         "id_inventario": 14,
         "created_by": 14,
         "updated_by": 14,
-        "created_at": new Date("2022-06-15"),
-        "updated_at": new Date("2022-06-15"),
-        "delete_at": new Date("2022-06-15")
+        "created_at": ISODate("2022-06-15"),
+        "updated_at": ISODate("2022-06-15")
     },
     {
         "id": 15,
@@ -229,9 +218,8 @@ db.historiales.insertMany([
         "id_inventario": 15,
         "created_by": 15,
         "updated_by": 15,
-        "created_at": new Date("2022-06-16"),
-        "updated_at": new Date("2022-06-16"),
-        "delete_at": new Date("2022-06-16")
+        "created_at": ISODate("2022-06-16"),
+        "updated_at": ISODate("2022-06-16")
     },
     {
         "id": 16,
@@ -241,9 +229,8 @@ db.historiales.insertMany([
         "id_inventario": 16,
         "created_by": 16,
         "updated_by": 16,
-        "created_at": new Date("2022-06-17"),
-        "updated_at": new Date("2022-06-17"),
-        "delete_at": new Date("2022-06-17")
+        "created_at": ISODate("2022-06-17"),
+        "updated_at": ISODate("2022-06-17")
     },
     {
         "id": 17,
@@ -253,9 +240,8 @@ db.historiales.insertMany([
         "id_inventario": 17,
         "created_by": 17,
         "updated_by": 17,
-        "created_at": new Date("2022-06-18"),
-        "updated_at": new Date("2022-06-18"),
-        "delete_at": new Date("2022-06-18")
+        "created_at": ISODate("2022-06-18"),
+        "updated_at": ISODate("2022-06-18")
     },
     {
         "id": 18,
@@ -265,9 +251,8 @@ db.historiales.insertMany([
         "id_inventario": 18,
         "created_by": 18,
         "updated_by": 18,
-        "created_at": new Date("2022-06-19"),
-        "updated_at": new Date("2022-06-19"),
-        "delete_at": new Date("2022-06-19")
+        "created_at": ISODate("2022-06-19"),
+        "updated_at": ISODate("2022-06-19")
     },
     {
         "id": 19,
@@ -277,9 +262,8 @@ db.historiales.insertMany([
         "id_inventario": 19,
         "created_by": 19,
         "updated_by": 19,
-        "created_at": new Date("2022-06-20"),
-        "updated_at": new Date("2022-06-20"),
-        "delete_at": new Date("2022-06-20")
+        "created_at": ISODate("2022-06-20"),
+        "updated_at": ISODate("2022-06-20")
     },
     {
         "id": 20,
@@ -289,9 +273,8 @@ db.historiales.insertMany([
         "id_inventario": 20,
         "created_by": 20,
         "updated_by": 20,
-        "created_at": new Date("2022-06-21"),
-        "updated_at": new Date("2022-06-21"),
-        "delete_at": new Date("2022-06-21")
+        "created_at": ISODate("2022-06-21"),
+        "updated_at": ISODate("2022-06-21")
     },
     {
         "id": 21,
@@ -301,9 +284,8 @@ db.historiales.insertMany([
         "id_inventario": 21,
         "created_by": 21,
         "updated_by": 21,
-        "created_at": new Date("2022-06-22"),
-        "updated_at": new Date("2022-06-22"),
-        "delete_at": new Date("2022-06-22")
+        "created_at": ISODate("2022-06-22"),
+        "updated_at": ISODate("2022-06-22")
     },
     {
         "id": 22,
@@ -313,9 +295,8 @@ db.historiales.insertMany([
         "id_inventario": 22,
         "created_by": 22,
         "updated_by": 22,
-        "created_at": new Date("2022-06-23"),
-        "updated_at": new Date("2022-06-23"),
-        "delete_at": new Date("2022-06-23")
+        "created_at": ISODate("2022-06-23"),
+        "updated_at": ISODate("2022-06-23")
     },
     {
         "id": 23,
@@ -325,9 +306,8 @@ db.historiales.insertMany([
         "id_inventario": 23,
         "created_by": 23,
         "updated_by": 23,
-        "created_at": new Date("2022-06-24"),
-        "updated_at": new Date("2022-06-24"),
-        "delete_at": new Date("2022-06-24")
+        "created_at": ISODate("2022-06-24"),
+        "updated_at": ISODate("2022-06-24")
     },
     {
         "id": 24,
@@ -337,9 +317,8 @@ db.historiales.insertMany([
         "id_inventario": 24,
         "created_by": 24,
         "updated_by": 24,
-        "created_at": new Date("2022-06-25"),
-        "updated_at": new Date("2022-06-25"),
-        "delete_at": new Date("2022-06-25")
+        "created_at": ISODate("2022-06-25"),
+        "updated_at": ISODate("2022-06-25")
     },
     {
         "id": 25,
@@ -349,9 +328,8 @@ db.historiales.insertMany([
         "id_inventario": 25,
         "created_by": 25,
         "updated_by": 25,
-        "created_at": new Date("2022-06-26"),
-        "updated_at": new Date("2022-06-26"),
-        "delete_at": new Date("2022-06-26")
+        "created_at": ISODate("2022-06-26"),
+        "updated_at": ISODate("2022-06-26")
     },
     {
         "id": 26,
@@ -361,9 +339,8 @@ db.historiales.insertMany([
         "id_inventario": 26,
         "created_by": 26,
         "updated_by": 26,
-        "created_at": new Date("2022-06-27"),
-        "updated_at": new Date("2022-06-27"),
-        "delete_at": new Date("2022-06-27")
+        "created_at": ISODate("2022-06-27"),
+        "updated_at": ISODate("2022-06-27")
     },
     {
         "id": 27,
@@ -373,9 +350,8 @@ db.historiales.insertMany([
         "id_inventario": 27,
         "created_by": 27,
         "updated_by": 27,
-        "created_at": new Date("2022-06-28"),
-        "updated_at": new Date("2022-06-28"),
-        "delete_at": new Date("2022-06-28")
+        "created_at": ISODate("2022-06-28"),
+        "updated_at": ISODate("2022-06-28")
     },
     {
         "id": 28,
@@ -385,9 +361,8 @@ db.historiales.insertMany([
         "id_inventario": 28,
         "created_by": 28,
         "updated_by": 28,
-        "created_at": new Date("2022-06-29"),
-        "updated_at": new Date("2022-06-29"),
-        "delete_at": new Date("2022-06-29")
+        "created_at": ISODate("2022-06-29"),
+        "updated_at": ISODate("2022-06-29")
     },
     {
         "id": 29,
@@ -397,9 +372,8 @@ db.historiales.insertMany([
         "id_inventario": 29,
         "created_by": 29,
         "updated_by": 29,
-        "created_at": new Date("2022-06-30"),
-        "updated_at": new Date("2022-06-30"),
-        "delete_at": new Date("2022-06-30")
+        "created_at": ISODate("2022-06-30"),
+        "updated_at": ISODate("2022-06-30"),
     },
     {
         "id": 30,
@@ -409,10 +383,9 @@ db.historiales.insertMany([
         "id_inventario": 30,
         "created_by": 30,
         "updated_by": 30,
-        "created_at": new Date("2022-07-01"),
-        "updated_at": new Date("2022-07-01"),
-        "delete_at": new Date("2022-07-01")
-    } */
+        "created_at": ISODate("2022-07-01"),
+        "updated_at": ISODate("2022-07-01")
+    }
 ]);
 
 use("db_bodegas_mongo");
@@ -424,7 +397,7 @@ db.createCollection("bodegas", {
         $jsonSchema: {
             bsonType: 'object',
             additionalProperties: false,
-            required: ["id", "nombre", "id_responsable", "estado", "created_by", "updated_by", "created_at", "u"],
+            required: ["id", "nombre", "id_responsable", "estado", "created_by", "updated_by", "created_at", "updated_at"],
             properties: {
                 _id: {
                     bsonType: 'objectId',
@@ -456,12 +429,12 @@ db.createCollection("bodegas", {
                     description: '{"status": "402", "message": "El UPDATED BY de la bodega es un dato OBLIGATORIO y de tipo NUMERICO"}'
                 },
                 created_at: {
-                    bsonType: ["date", "null"],
+                    bsonType: "date",
                     description: '{"status": "402", "message": "El CREATED AT de la bodega es un dato OBLIGATORIO y de tipo DATE"}'
 
                 },
                 updated_at: {
-                    bsonType: ["date", "null"],
+                    bsonType: "date",
                     description: '{"status": "402", "message": "El UPDATED AT de la bodega es un dato OBLIGATORIO y de tipo DATE"}'
                 }
             },
@@ -478,9 +451,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 1,
         "updated_by": 1,
-        "created_at": new Date("2022-06-02 15:33:48"),
-        "updated_at": new Date("2022-06-02 15:33:48"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-02"),
+        "updated_at": ISODate("2022-06-02")
     },
     {
         "id": 2,
@@ -489,9 +461,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 16,
         "updated_by": 16,
-        "created_at": new Date("2022-06-03 14:25:37"),
-        "updated_at": new Date("2022-06-03 14:25:37"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-03"),
+        "updated_at": ISODate("2022-06-03")
     },
     {
         "id": 3,
@@ -500,9 +471,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 2,
         "updated_by": 2,
-        "created_at": new Date("2022-06-04 09:12:15"),
-        "updated_at": new Date("2022-06-04 09:12:15"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-04"),
+        "updated_at": ISODate("2022-06-04")
     },
     {
         "id": 4,
@@ -511,9 +481,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 3,
         "updated_by": 3,
-        "created_at": new Date("2022-06-05 17:50:29"),
-        "updated_at": new Date("2022-06-05 17:50:29"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-05"),
+        "updated_at": ISODate("2022-06-05")
     },
     {
         "id": 5,
@@ -522,9 +491,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 12,
         "updated_by": 12,
-        "created_at": new Date("2022-06-06 08:40:12"),
-        "updated_at": new Date("2022-06-06 08:40:12"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-06"),
+        "updated_at": ISODate("2022-06-06")
     },
     {
         "id": 6,
@@ -533,9 +501,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 4,
         "updated_by": 4,
-        "created_at": new Date("2022-06-07 11:15:55"),
-        "updated_at": new Date("2022-06-07 11:15:55"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-07"),
+        "updated_at": ISODate("2022-06-07")
     },
     {
         "id": 7,
@@ -544,9 +511,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 20,
         "updated_by": 20,
-        "created_at": new Date("2022-06-08 16:28:40"),
-        "updated_at": new Date("2022-06-08 16:28:40"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-08"),
+        "updated_at": ISODate("2022-06-08")
     },
     {
         "id": 8,
@@ -555,9 +521,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 2,
         "updated_by": 2,
-        "created_at": new Date("2022-06-09 19:05:22"),
-        "updated_at": new Date("2022-06-09 19:05:22"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-09"),
+        "updated_at": ISODate("2022-06-09")
     },
     {
         "id": 9,
@@ -566,9 +531,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 5,
         "updated_by": 5,
-        "created_at": new Date("2022-06-10 22:14:11"),
-        "updated_at": new Date("2022-06-10 22:14:11"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-10"),
+        "updated_at": ISODate("2022-06-10")
     },
     {
         "id": 10,
@@ -577,9 +541,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 6,
         "updated_by": 6,
-        "created_at": new Date("2022-06-11 14:37:03"),
-        "updated_at": new Date("2022-06-11 14:37:03"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-11"),
+        "updated_at": ISODate("2022-06-11")
     },
     {
         "id": 11,
@@ -588,9 +551,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 20,
         "updated_by": 20,
-        "created_at": new Date("2022-06-12 09:23:45"),
-        "updated_at": new Date("2022-06-12 09:23:45"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-12"),
+        "updated_at": ISODate("2022-06-12")
     },
     {
         "id": 12,
@@ -599,9 +561,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 1,
         "updated_by": 1,
-        "created_at": new Date("2022-06-13 17:56:28"),
-        "updated_at": new Date("2022-06-13 17:56:28"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-13"),
+        "updated_at": ISODate("2022-06-13")
     },
     {
         "id": 13,
@@ -610,9 +571,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 13,
         "updated_by": 13,
-        "created_at": new Date("2022-06-14 10:42:09"),
-        "updated_at": new Date("2022-06-14 10:42:09"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-14"),
+        "updated_at": ISODate("2022-06-14")
     },
     {
         "id": 14,
@@ -621,9 +581,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 7,
         "updated_by": 7,
-        "created_at": new Date("2022-06-15 14:21:37"),
-        "updated_at": new Date("2022-06-15 14:21:37"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-15"),
+        "updated_at": ISODate("2022-06-15")
     },
     {
         "id": 15,
@@ -632,9 +591,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 20,
         "updated_by": 20,
-        "created_at": new Date("2022-06-16 08:03:52"),
-        "updated_at": new Date("2022-06-16 08:03:52"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-16"),
+        "updated_at": ISODate("2022-06-16")
     },
     {
         "id": 16,
@@ -643,9 +601,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 5,
         "updated_by": 5,
-        "created_at": new Date("2022-06-17 17:39:18"),
-        "updated_at": new Date("2022-06-17 17:39:18"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-17"),
+        "updated_at": ISODate("2022-06-17")
     },
     {
         "id": 17,
@@ -654,9 +611,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 14,
         "updated_by": 14,
-        "created_at": new Date("2022-06-18 09:48:37"),
-        "updated_at": new Date("2022-06-18 09:48:37"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-18"),
+        "updated_at": ISODate("2022-06-18")
     },
     {
         "id": 18,
@@ -665,9 +621,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 8,
         "updated_by": 8,
-        "created_at": new Date("2022-06-19 12:15:59"),
-        "updated_at": new Date("2022-06-19 12:15:59"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-19"),
+        "updated_at": ISODate("2022-06-19")
     },
     {
         "id": 19,
@@ -676,9 +631,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 20,
         "updated_by": 20,
-        "created_at": new Date("2022-06-20 14:29:10"),
-        "updated_at": new Date("2022-06-20 14:29:10"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-20"),
+        "updated_at": ISODate("2022-06-20")
     },
     {
         "id": 20,
@@ -687,9 +641,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 3,
         "updated_by": 3,
-        "created_at": new Date("2022-06-21 18:07:21"),
-        "updated_at": new Date("2022-06-21 18:07:21"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-21"),
+        "updated_at": ISODate("2022-06-21")
     },
     {
         "id": 21,
@@ -698,9 +651,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 15,
         "updated_by": 15,
-        "created_at": new Date("2022-06-22 10:59:33"),
-        "updated_at": new Date("2022-06-22 10:59:33"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-22"),
+        "updated_at": ISODate("2022-06-22")
     },
     {
         "id": 22,
@@ -709,9 +661,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 9,
         "updated_by": 9,
-        "created_at": new Date("2022-06-23 15:20:45"),
-        "updated_at": new Date("2022-06-23 15:20:45"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-23"),
+        "updated_at": ISODate("2022-06-23")
     },
     {
         "id": 23,
@@ -720,9 +671,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 20,
         "updated_by": 20,
-        "created_at": new Date("2022-06-24 08:17:57"),
-        "updated_at": new Date("2022-06-24 08:17:57"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-24"),
+        "updated_at": ISODate("2022-06-24")
     },
     {
         "id": 24,
@@ -731,9 +681,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 4,
         "updated_by": 4,
-        "created_at": new Date("2022-06-25 19:53:08"),
-        "updated_at": new Date("2022-06-25 19:53:08"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-25"),
+        "updated_at": ISODate("2022-06-25")
     },
     {
         "id": 25,
@@ -742,9 +691,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 17,
         "updated_by": 17,
-        "created_at": new Date("2022-06-26 11:30:19"),
-        "updated_at": new Date("2022-06-26 11:30:19"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-26"),
+        "updated_at": ISODate("2022-06-26")
     },
     {
         "id": 26,
@@ -753,9 +701,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 10,
         "updated_by": 10,
-        "created_at": new Date("2022-06-27 14:42:27"),
-        "updated_at": new Date("2022-06-27 14:42:27"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-27"),
+        "updated_at": ISODate("2022-06-27")
     },
     {
         "id": 27,
@@ -764,9 +711,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 20,
         "updated_by": 20,
-        "created_at": new Date("2022-06-28 09:56:35"),
-        "updated_at": new Date("2022-06-28 09:56:35"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-28"),
+        "updated_at": ISODate("2022-06-28")
     },
     {
         "id": 28,
@@ -775,9 +721,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 19,
         "updated_by": 19,
-        "created_at": new Date("2022-06-29 17:08:44"),
-        "updated_at": new Date("2022-06-29 17:08:44"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-29"),
+        "updated_at": ISODate("2022-06-29")
     },
     {
         "id": 29,
@@ -786,9 +731,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 18,
         "updated_by": 18,
-        "created_at": new Date("2022-06-30 10:27:57"),
-        "updated_at": new Date("2022-06-30 10:27:57"),
-        "delete_at": null
+        "created_at": ISODate("2022-06-30"),
+        "updated_at": ISODate("2022-06-30")
     },
     {
         "id": 30,
@@ -797,9 +741,8 @@ db.bodegas.insertMany([
         "estado": 1,
         "created_by": 11,
         "updated_by": 11,
-        "created_at": new Date("2022-07-01 12:05:06"),
-        "updated_at": new Date("2022-07-01 12:05:06"),
-        "delete_at": null
+        "created_at": ISODate("2022-07-01"),
+        "updated_at": ISODate("2022-07-01")
     }
 ]);
 
@@ -812,7 +755,7 @@ db.createCollection("inventarios", {
         $jsonSchema: {
             bsonType: 'object',
             additionalProperties: false,
-            required: ["id", "id_bodega", "id_producto", "cantidad", "created_by", "updated_by"],
+            required: ["id", "id_bodega", "id_producto", "cantidad", "created_by", "updated_by", "created_at", "updated_at"],
             properties: {
                 _id: {
                     bsonType: 'objectId',
@@ -842,18 +785,14 @@ db.createCollection("inventarios", {
                     description: '{"status": "402", "message": "El UPDATED BY del inventario es un dato OBLIGATORIO y de tipo NUMERICO"}'
                 },
                 created_at: {
-                    bsonType: ["date", "null"],
+                    bsonType: "date",
                     description: '{"status": "402", "message": "El CREATED AT del inventario es un dato OBLIGATORIO y de tipo DATE"}'
 
                 },
                 updated_at: {
-                    bsonType: ["date", "null"],
+                    bsonType: "date",
                     description: '{"status": "402", "message": "El UPDATED AT del inventario es un dato OBLIGATORIO y de tipo DATE"}'
-                },
-                delete_at: {
-                    bsonType: ["date", "null"],
-                    description: '{"status": "402", "message": "El DELETE AT del inventario es un dato OBLIGATORIO y de tipo DATE"}'
-                },
+                }
             },
         }
     }
@@ -868,9 +807,8 @@ db.inventarios.insertMany([
         "cantidad": 103,
         "created_by": 1,
         "updated_by": 1,
-        "created_at": new Date("2023-05-26 01:35:52"),
-        "updated_at": new Date("2023-05-26 01:35:52"),
-        "delete_at": null
+        "created_at": ISODate("2023-05-26"),
+        "updated_at": ISODate("2023-05-26")
     },
     {
         "id": 2,
@@ -879,9 +817,8 @@ db.inventarios.insertMany([
         "cantidad": 245,
         "created_by": 2,
         "updated_by": 2,
-        "created_at": new Date("2023-05-27 10:18:36"),
-        "updated_at": new Date("2023-05-27 10:18:36"),
-        "delete_at": null
+        "created_at": ISODate("2023-05-27"),
+        "updated_at": ISODate("2023-05-27")
     },
     {
         "id": 3,
@@ -890,9 +827,8 @@ db.inventarios.insertMany([
         "cantidad": 78,
         "created_by": 3,
         "updated_by": 3,
-        "created_at": new Date("2023-05-28 15:42:17"),
-        "updated_at": new Date("2023-05-28 15:42:17"),
-        "delete_at": null
+        "created_at": ISODate("2023-05-28"),
+        "updated_at": ISODate("2023-05-28")
     },
     {
         "id": 4,
@@ -901,9 +837,8 @@ db.inventarios.insertMany([
         "cantidad": 521,
         "created_by": 4,
         "updated_by": 4,
-        "created_at": new Date("2023-05-29 21:03:59"),
-        "updated_at": new Date("2023-05-29 21:03:59"),
-        "delete_at": null
+        "created_at": ISODate("2023-05-29"),
+        "updated_at": ISODate("2023-05-29")
     },
     {
         "id": 5,
@@ -912,9 +847,8 @@ db.inventarios.insertMany([
         "cantidad": 220,
         "created_by": 5,
         "updated_by": 5,
-        "created_at": new Date("2023-05-30 12:14:42"),
-        "updated_at": new Date("2023-05-30 12:14:42"),
-        "delete_at": null
+        "created_at": ISODate("2023-05-30"),
+        "updated_at": ISODate("2023-05-30")
     },
     {
         "id": 6,
@@ -923,9 +857,8 @@ db.inventarios.insertMany([
         "cantidad": 405,
         "created_by": 6,
         "updated_by": 6,
-        "created_at": new Date("2023-05-31 16:52:25"),
-        "updated_at": new Date("2023-05-31 16:52:25"),
-        "delete_at": null
+        "created_at": ISODate("2023-05-31"),
+        "updated_at": ISODate("2023-05-31")
     },
     {
         "id": 7,
@@ -934,9 +867,8 @@ db.inventarios.insertMany([
         "cantidad": 160,
         "created_by": 7,
         "updated_by": 7,
-        "created_at": new Date("2023-06-01 09:27:17"),
-        "updated_at": new Date("2023-06-01 09:27:17"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-01"),
+        "updated_at": ISODate("2023-06-01")
     },
     {
         "id": 8,
@@ -945,9 +877,8 @@ db.inventarios.insertMany([
         "cantidad": 310,
         "created_by": 8,
         "updated_by": 8,
-        "created_at": new Date("2023-06-02 18:05:09"),
-        "updated_at": new Date("2023-06-02 18:05:09"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-02"),
+        "updated_at": ISODate("2023-06-02")
     },
     {
         "id": 9,
@@ -956,9 +887,8 @@ db.inventarios.insertMany([
         "cantidad": 98,
         "created_by": 9,
         "updated_by": 9,
-        "created_at": new Date("2023-06-03 23:41:52"),
-        "updated_at": new Date("2023-06-03 23:41:52"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-03"),
+        "updated_at": ISODate("2023-06-03")
     },
     {
         "id": 10,
@@ -967,9 +897,8 @@ db.inventarios.insertMany([
         "cantidad": 702,
         "created_by": 10,
         "updated_by": 10,
-        "created_at": new Date("2023-06-04 15:19:34"),
-        "updated_at": new Date("2023-06-04 15:19:34"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-04"),
+        "updated_at": ISODate("2023-06-04")
     },
     {
         "id": 11,
@@ -978,9 +907,8 @@ db.inventarios.insertMany([
         "cantidad": 450,
         "created_by": 11,
         "updated_by": 11,
-        "created_at": new Date("2023-06-05 09:07:17"),
-        "updated_at": new Date("2023-06-05 09:07:17"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-05"),
+        "updated_at": ISODate("2023-06-05")
     },
     {
         "id": 12,
@@ -989,9 +917,8 @@ db.inventarios.insertMany([
         "cantidad": 275,
         "created_by": 12,
         "updated_by": 12,
-        "created_at": new Date("2023-06-06 12:55:59"),
-        "updated_at": new Date("2023-06-06 12:55:59"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-06"),
+        "updated_at": ISODate("2023-06-06")
     },
     {
         "id": 13,
@@ -1000,9 +927,8 @@ db.inventarios.insertMany([
         "cantidad": 800,
         "created_by": 13,
         "updated_by": 13,
-        "created_at": new Date("2023-06-07 17:33:42"),
-        "updated_at": new Date("2023-06-07 17:33:42"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-07"),
+        "updated_at": ISODate("2023-06-07")
     },
     {
         "id": 14,
@@ -1011,9 +937,8 @@ db.inventarios.insertMany([
         "cantidad": 700,
         "created_by": 14,
         "updated_by": 14,
-        "created_at": new Date("2023-06-08 09:21:25"),
-        "updated_at": new Date("2023-06-08 09:21:25"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-08"),
+        "updated_at": ISODate("2023-06-08")
     },
     {
         "id": 15,
@@ -1022,9 +947,8 @@ db.inventarios.insertMany([
         "cantidad": 1600,
         "created_by": 15,
         "updated_by": 15,
-        "created_at": new Date("2023-06-09 14:59:07"),
-        "updated_at": new Date("2023-06-09 14:59:07"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-09"),
+        "updated_at": ISODate("2023-06-09")
     },
     {
         "id": 16,
@@ -1033,9 +957,8 @@ db.inventarios.insertMany([
         "cantidad": 1100,
         "created_by": 16,
         "updated_by": 16,
-        "created_at": new Date("2023-06-10 18:36:50"),
-        "updated_at": new Date("2023-06-10 18:36:50"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-10"),
+        "updated_at": ISODate("2023-06-10")
     },
     {
         "id": 17,
@@ -1044,9 +967,8 @@ db.inventarios.insertMany([
         "cantidad": 400,
         "created_by": 17,
         "updated_by": 17,
-        "created_at": new Date("2023-06-11 09:12:32"),
-        "updated_at": new Date("2023-06-11 09:12:32"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-11"),
+        "updated_at": ISODate("2023-06-11")
     },
     {
         "id": 18,
@@ -1055,9 +977,8 @@ db.inventarios.insertMany([
         "cantidad": 900,
         "created_by": 18,
         "updated_by": 18,
-        "created_at": new Date("2023-06-12 20:50:14"),
-        "updated_at": new Date("2023-06-12 20:50:14"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-12"),
+        "updated_at": ISODate("2023-06-12")
     },
     {
         "id": 19,
@@ -1066,9 +987,8 @@ db.inventarios.insertMany([
         "cantidad": 1300,
         "created_by": 19,
         "updated_by": 19,
-        "created_at": new Date("2023-06-13 02:28:57"),
-        "updated_at": new Date("2023-06-13 02:28:57"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-13"),
+        "updated_at": ISODate("2023-06-13")
     },
     {
         "id": 20,
@@ -1077,9 +997,8 @@ db.inventarios.insertMany([
         "cantidad": 700,
         "created_by": 20,
         "updated_by": 20,
-        "created_at": new Date("2023-06-14 07:06:39"),
-        "updated_at": new Date("2023-06-14 07:06:39"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-14"),
+        "updated_at": ISODate("2023-06-14")
     },
     {
         "id": 21,
@@ -1088,9 +1007,8 @@ db.inventarios.insertMany([
         "cantidad": 1800,
         "created_by": 1,
         "updated_by": 1,
-        "created_at": new Date("2023-06-15 11:44:22"),
-        "updated_at": new Date("2023-06-15 11:44:22"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-15"),
+        "updated_at": ISODate("2023-06-15")
     },
     {
         "id": 22,
@@ -1099,9 +1017,8 @@ db.inventarios.insertMany([
         "cantidad": 500,
         "created_by": 2,
         "updated_by": 2,
-        "created_at": new Date("2023-06-16 14:22:04"),
-        "updated_at": new Date("2023-06-16 14:22:04"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-16"),
+        "updated_at": ISODate("2023-06-16")
     },
     {
         "id": 23,
@@ -1110,9 +1027,8 @@ db.inventarios.insertMany([
         "cantidad": 1000,
         "created_by": 3,
         "updated_by": 3,
-        "created_at": new Date("2023-06-17 19:59:47"),
-        "updated_at": new Date("2023-06-17 19:59:47"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-17"),
+        "updated_at": ISODate("2023-06-17")
     },
     {
         "id": 24,
@@ -1121,9 +1037,8 @@ db.inventarios.insertMany([
         "cantidad": 750,
         "created_by": 4,
         "updated_by": 4,
-        "created_at": new Date("2023-06-18 08:37:29"),
-        "updated_at": new Date("2023-06-18 08:37:29"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-18"),
+        "updated_at": ISODate("2023-06-18")
     },
     {
         "id": 25,
@@ -1132,9 +1047,8 @@ db.inventarios.insertMany([
         "cantidad": 1600,
         "created_by": 5,
         "updated_by": 5,
-        "created_at": new Date("2023-06-19 13:15:12"),
-        "updated_at": new Date("2023-06-19 13:15:12"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-19"),
+        "updated_at": ISODate("2023-06-19")
     },
     {
         "id": 26,
@@ -1143,9 +1057,8 @@ db.inventarios.insertMany([
         "cantidad": 1100,
         "created_by": 6,
         "updated_by": 6,
-        "created_at": new Date("2023-06-20 16:52:54"),
-        "updated_at": new Date("2023-06-20 16:52:54"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-20"),
+        "updated_at": ISODate("2023-06-20")
     },
     {
         "id": 27,
@@ -1154,9 +1067,8 @@ db.inventarios.insertMany([
         "cantidad": 400,
         "created_by": 7,
         "updated_by": 7,
-        "created_at": new Date("2023-06-21 10:28:37"),
-        "updated_at": new Date("2023-06-21 10:28:37"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-21"),
+        "updated_at": ISODate("2023-06-21")
     },
     {
         "id": 28,
@@ -1165,9 +1077,8 @@ db.inventarios.insertMany([
         "cantidad": 900,
         "created_by": 8,
         "updated_by": 8,
-        "created_at": new Date("2023-06-22 19:06:19"),
-        "updated_at": new Date("2023-06-22 19:06:19"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-22"),
+        "updated_at": ISODate("2023-06-22")
     },
     {
         "id": 29,
@@ -1176,9 +1087,8 @@ db.inventarios.insertMany([
         "cantidad": 1300,
         "created_by": 9,
         "updated_by": 9,
-        "created_at": new Date("2023-06-23 23:43:02"),
-        "updated_at": new Date("2023-06-23 23:43:02"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-23"),
+        "updated_at": ISODate("2023-06-23")
     },
     {
         "id": 30,
@@ -1187,9 +1097,8 @@ db.inventarios.insertMany([
         "cantidad": 700,
         "created_by": 10,
         "updated_by": 10,
-        "created_at": new Date("2023-06-24 14:20:44"),
-        "updated_at": new Date("2023-06-24 14:20:44"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-24"),
+        "updated_at": ISODate("2023-06-24")
     }
 ]);
 use("db_bodegas_mongo");
@@ -1201,7 +1110,7 @@ db.createCollection("productos", {
         $jsonSchema: {
             bsonType: 'object',
             additionalProperties: false,
-            required: [ "id", "nombre", "descripcion", "estado", "created_by", "updated_by"],
+            required: [ "id", "nombre", "descripcion", "estado", "created_by", "updated_by", "created_at", "updated_at"],
             properties: {
                 _id: {
                     bsonType: 'objectId',
@@ -1231,23 +1140,20 @@ db.createCollection("productos", {
                     description: '{"status": "402", "message": "El UPDATED BY del producto es un dato OBLIGATORIO y de tipo NUMERICO"}'
                 },
                 created_at: {
-                    bsonType: ["date", "null"],
+                    bsonType: "date",
                     description: '{"status": "402", "message": "El CREATED AT del producto es un dato OBLIGATORIO y de tipo DATE"}'
 
                 },
                 updated_at: {
-                    bsonType: ["date", "null"],
+                    bsonType: "date",
                     description: '{"status": "402", "message": "El UPDATED AT del producto es un dato OBLIGATORIO y de tipo DATE"}'
-                },
-                delete_at: {
-                    bsonType: ["date", "null"],
-                    description: '{"status": "402", "message": "El DELETE AT del producto es un dato OBLIGATORIO y de tipo DATE"}'
-                },
+                }
             },
         }
     }
 });
 
+use("db_bodegas_mongo");
 db.productos.insertMany([
     {
         "id": 1,
@@ -1256,9 +1162,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 1,
         "updated_by": 1,
-        "created_at": new Date("2023-06-24 14:20:44"),
-        "updated_at": new Date("2023-06-24 14:20:44"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-24"),
+        "updated_at": ISODate("2023-06-24")
     },
     {
         "id": 2,
@@ -1267,9 +1172,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 2,
         "updated_by": 2,
-        "created_at": new Date("2023-06-25 10:18:36"),
-        "updated_at": new Date("2023-06-25 10:18:36"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-25"),
+        "updated_at": ISODate("2023-06-25")
     },
     {
         "id": 3,
@@ -1278,9 +1182,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 3,
         "updated_by": 3,
-        "created_at": new Date("2023-06-26 15:42:17"),
-        "updated_at": new Date("2023-06-26 15:42:17"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-26"),
+        "updated_at": ISODate("2023-06-26")
     },
     {
         "id": 4,
@@ -1289,9 +1192,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 4,
         "updated_by": 4,
-        "created_at": new Date("2023-06-27 21:03:59"),
-        "updated_at": new Date("2023-06-27 21:03:59"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-27"),
+        "updated_at": ISODate("2023-06-27")
     },
     {
         "id": 5,
@@ -1300,9 +1202,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 5,
         "updated_by": 5,
-        "created_at": new Date("2023-06-28 12:14:42"),
-        "updated_at": new Date("2023-06-28 12:14:42"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-28"),
+        "updated_at": ISODate("2023-06-28")
     },
     {
         "id": 6,
@@ -1311,9 +1212,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 6,
         "updated_by": 6,
-        "created_at": new Date("2023-06-29 16:52:25"),
-        "updated_at": new Date("2023-06-29 16:52:25"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-29"),
+        "updated_at": ISODate("2023-06-29")
     },
     {
         "id": 7,
@@ -1322,9 +1222,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 7,
         "updated_by": 7,
-        "created_at": new Date("2023-06-30 09:27:17"),
-        "updated_at": new Date("2023-06-30 09:27:17"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-30"),
+        "updated_at": ISODate("2023-06-30")
     },
     {
         "id": 8,
@@ -1333,9 +1232,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 8,
         "updated_by": 8,
-        "created_at": new Date("2023-07-01 18:05:09"),
-        "updated_at": new Date("2023-07-01 18:05:09"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-01"),
+        "updated_at": ISODate("2023-07-01")
     },
     {
         "id": 9,
@@ -1344,9 +1242,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 9,
         "updated_by": 9,
-        "created_at": new Date("2023-07-02 23:41:52"),
-        "updated_at": new Date("2023-07-02 23:41:52"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-02"),
+        "updated_at": ISODate("2023-07-02")
     },
     {
         "id": 10,
@@ -1355,9 +1252,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 10,
         "updated_by": 10,
-        "created_at": new Date("2023-07-03 15:19:34"),
-        "updated_at": new Date("2023-07-03 15:19:34"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-03"),
+        "updated_at": ISODate("2023-07-03")
     },
     {
         "id": 11,
@@ -1366,9 +1262,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 11,
         "updated_by": 11,
-        "created_at": new Date("2023-07-04 09:07:17"),
-        "updated_at": new Date("2023-07-04 09:07:17"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-04"),
+        "updated_at": ISODate("2023-07-04")
     },
     {
         "id": 12,
@@ -1377,9 +1272,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 12,
         "updated_by": 12,
-        "created_at": new Date("2023-07-05 12:55:59"),
-        "updated_at": new Date("2023-07-05 12:55:59"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-05"),
+        "updated_at": ISODate("2023-07-05")
     },
     {
         "id": 13,
@@ -1388,9 +1282,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 13,
         "updated_by": 13,
-        "created_at": new Date("2023-07-06 17:33:42"),
-        "updated_at": new Date("2023-07-06 17:33:42"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-06"),
+        "updated_at": ISODate("2023-07-06")
     },
     {
         "id": 14,
@@ -1399,9 +1292,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 14,
         "updated_by": 14,
-        "created_at": new Date("2023-07-07 09:21:25"),
-        "updated_at": new Date("2023-07-07 09:21:25"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-07"),
+        "updated_at": ISODate("2023-07-07")
     },
     {
         "id": 15,
@@ -1410,9 +1302,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 15,
         "updated_by": 15,
-        "created_at": new Date("2023-07-08 14:59:07"),
-        "updated_at": new Date("2023-07-08 14:59:07"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-08"),
+        "updated_at": ISODate("2023-07-08")
     },
     {
         "id": 16,
@@ -1421,9 +1312,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 16,
         "updated_by": 16,
-        "created_at": new Date("2023-07-09 18:36:50"),
-        "updated_at": new Date("2023-07-09 18:36:50"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-09"),
+        "updated_at": ISODate("2023-07-09")
     },
     {
         "id": 17,
@@ -1432,9 +1322,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 17,
         "updated_by": 17,
-        "created_at": new Date("2023-07-10 11:14:32"),
-        "updated_at": new Date("2023-07-10 11:14:32"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-10"),
+        "updated_at": ISODate("2023-07-10")
     },
     {
         "id": 18,
@@ -1443,9 +1332,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 18,
         "updated_by": 18,
-        "created_at": new Date("2023-07-11 20:52:14"),
-        "updated_at": new Date("2023-07-11 20:52:14"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-11"),
+        "updated_at": ISODate("2023-07-11")
     },
     {
         "id": 19,
@@ -1454,9 +1342,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 19,
         "updated_by": 19,
-        "created_at": new Date("2023-07-12 01:29:57"),
-        "updated_at": new Date("2023-07-12 01:29:57"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-12"),
+        "updated_at": ISODate("2023-07-12")
     },
     {
         "id": 20,
@@ -1465,9 +1352,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 20,
         "updated_by": 20,
-        "created_at": new Date("2023-07-13 06:07:39"),
-        "updated_at": new Date("2023-07-13 06:07:39"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-13"),
+        "updated_at": ISODate("2023-07-13")
     },
     {
         "id": 21,
@@ -1476,9 +1362,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 1,
         "updated_by": 1,
-        "created_at": new Date("2023-07-14 10:45:22"),
-        "updated_at": new Date("2023-07-14 10:45:22"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-14"),
+        "updated_at": ISODate("2023-07-14")
     },
     {
         "id": 22,
@@ -1487,9 +1372,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 2,
         "updated_by": 2,
-        "created_at": new Date("2023-07-15 14:23:04"),
-        "updated_at": new Date("2023-07-15 14:23:04"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-15"),
+        "updated_at": ISODate("2023-07-15")
     },
     {
         "id": 23,
@@ -1498,9 +1382,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 3,
         "updated_by": 3,
-        "created_at": new Date("2023-07-16 19:00:47"),
-        "updated_at": new Date("2023-07-16 19:00:47"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-16"),
+        "updated_at": ISODate("2023-07-16")
     },
     {
         "id": 24,
@@ -1509,9 +1392,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 4,
         "updated_by": 4,
-        "created_at": new Date("2023-07-17 08:38:29"),
-        "updated_at": new Date("2023-07-17 08:38:29"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-17"),
+        "updated_at": ISODate("2023-07-17")
     },
     {
         "id": 25,
@@ -1520,9 +1402,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 5,
         "updated_by": 5,
-        "created_at": new Date("2023-07-18 13:16:12"),
-        "updated_at": new Date("2023-07-18 13:16:12"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-18"),
+        "updated_at": ISODate("2023-07-18")
     },
     {
         "id": 26,
@@ -1531,9 +1412,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 6,
         "updated_by": 6,
-        "created_at": new Date("2023-07-19 16:53:54"),
-        "updated_at": new Date("2023-07-19 16:53:54"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-19"),
+        "updated_at": ISODate("2023-07-19")
     },
     {
         "id": 27,
@@ -1542,9 +1422,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 7,
         "updated_by": 7,
-        "created_at": new Date("2023-07-20 10:29:37"),
-        "updated_at": new Date("2023-07-20 10:29:37"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-20"),
+        "updated_at": ISODate("2023-07-20")
     },
     {
         "id": 28,
@@ -1553,9 +1432,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 8,
         "updated_by": 8,
-        "created_at": new Date("2023-07-21 19:07:19"),
-        "updated_at": new Date("2023-07-21 19:07:19"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-21"),
+        "updated_at": ISODate("2023-07-21")
     },
     {
         "id": 29,
@@ -1564,9 +1442,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 9,
         "updated_by": 9,
-        "created_at": new Date("2023-07-22 23:44:02"),
-        "updated_at": new Date("2023-07-22 23:44:02"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-22"),
+        "updated_at": ISODate("2023-07-22")
     },
     {
         "id": 30,
@@ -1575,9 +1452,8 @@ db.productos.insertMany([
         "estado": 1,
         "created_by": 10,
         "updated_by": 10,
-        "created_at": new Date("2023-07-23 14:21:44"),
-        "updated_at": new Date("2023-07-23 14:21:44"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-23"),
+        "updated_at": ISODate("2023-07-23")
     }
 ]);
 
@@ -1590,7 +1466,7 @@ db.createCollection("users",{
         $jsonSchema: {
             bsonType: 'object',
             additionalProperties: false,
-            required: ["id", "nombre", "email", "email_verified_at", "estado", "created_by", "updated_by", "password"],
+            required: ["id", "nombre", "email", "email_verified_at", "estado", "created_by", "updated_by", "password", "created_at", "updated_at"],
             properties: {
                 _id: {
                     bsonType: 'objectId',
@@ -1608,7 +1484,7 @@ db.createCollection("users",{
                     description: '{"status": "402", "message": "El EMAIL del usuario es un dato OBLIGATORIO y de tipo TEXTO"}'
                 },
                 email_verified_at: {
-                    bsonType:  ["date", "null"],
+                    bsonType:  "date",
                     description: '{"status": "402", "message": "El EMAIL VERIFIED AT del usuario es un dato OBLIGATORIO y de tipo DATE"}'
                 },
                 estado: {
@@ -1624,7 +1500,7 @@ db.createCollection("users",{
                     description: '{"status": "402", "message": "El UPDATE BY del usuario es un dato OBLIGATORIO y de tipo NUMERICO"}'
                 },
                 foto: {
-                    bsonType: ["string", "null"],
+                    bsonType: "null",
                     description: '{"status": "402", "message": "La FOTO del usuario es un dato opcional y podría ser de tipo TEXTO"}'
                 },
                 password: {
@@ -1632,17 +1508,13 @@ db.createCollection("users",{
                     description: '{"status": "402", "message": "El PASSWORD del usuario es un dato OBLIGATORIO y de tipo TEXTO"}'
                 },
                 created_at: {
-                    bsonType:  ["date", "null"],
+                    bsonType:  "date",
                     description: '{"status": "402", "message": "El CREATED AT del usuario es un dato OBLIGATORIO y de tipo DATE"}'
                 },
                 updated_at: {
-                    bsonType:  ["date", "null"],
+                    bsonType:  "date",
                     description: '{"status": "402", "message": "El UPDATED AT del usuario es un dato OBLIGATORIO y de tipo DATE"}'
-                },
-                delete_at: {
-                    bsonType: ["date", "null"],
-                    description: '{"status": "402", "message": "El DELETED AT del usuario es un dato opcional y podría ser de tipo DATE"}'
-                },
+                }
             },
         }
     }
@@ -1655,280 +1527,260 @@ db.users.insertMany([
         "id": 1,
         "nombre": "juan0",
         "email": "juan0@hotmail.com",
-        "email_verified_at": new Date("2023-07-01 09:30:00"),
+        "email_verified_at": ISODate("2023-07-01"),
         "estado": 1,
         "created_by": 11,
         "updated_by": 11,
         "foto": null,
         "password": "12345",
-        "created_at": new Date("2023-06-24 14:20:44"),
-        "updated_at": new Date("2023-06-24 14:20:44"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-24"),
+        "updated_at": ISODate("2023-06-24")
     },
     {
         "id": 2,
         "nombre": "maria1",
         "email": "maria1@gmail.com",
-        "email_verified_at": new Date("2023-07-02 10:45:00"),
+        "email_verified_at": ISODate("2023-07-02"),
         "estado": 1,
         "created_by": 12,
         "updated_by": 12,
         "foto": null,
         "password": "abcdef",
-        "created_at": new Date("2023-06-25 11:35:18"),
-        "updated_at": new Date("2023-06-25 11:35:18"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-25"),
+        "updated_at": ISODate("2023-06-25")
     },
     {
         "id": 3,
         "nombre": "pedro2",
         "email": "pedro2@yahoo.com",
-        "email_verified_at": new Date("2023-07-03 14:20:00"),
+        "email_verified_at": ISODate("2023-07-03"),
         "estado": 1,
         "created_by": 13,
         "updated_by": 13,
         "foto": null,
         "password": "qwerty",
-        "created_at": new Date("2023-06-26 16:55:32"),
-        "updated_at": new Date("2023-06-26 16:55:32"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-26"),
+        "updated_at": ISODate("2023-06-26")
     },
     {
         "id": 4,
         "nombre": "ana3",
         "email": "ana3@outlook.com",
-        "email_verified_at": new Date("2023-07-04 17:10:00"),
+        "email_verified_at": ISODate("2023-07-04"),
         "estado": 1,
         "created_by": 14,
         "updated_by": 14,
         "foto": null,
         "password": "abc123",
-        "created_at": new Date("2023-06-27 19:45:12"),
-        "updated_at": new Date("2023-06-27 19:45:12"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-27"),
+        "updated_at": ISODate("2023-06-27")
     },
     {
         "id": 5,
         "nombre": "carlos4",
         "email": "carlos4@gmail.com",
-        "email_verified_at": new Date("2023-07-05 20:30:00"),
+        "email_verified_at": ISODate("2023-07-05"),
         "estado": 1,
         "created_by": 15,
         "updated_by": 15,
         "foto": null,
         "password": "456789",
-        "created_at": new Date("2023-06-28 22:15:59"),
-        "updated_at": new Date("2023-06-28 22:15:59"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-28"),
+        "updated_at": ISODate("2023-06-28")
     },
     {
         "id": 6,
         "nombre": "laura5",
         "email": "laura5@hotmail.com",
-        "email_verified_at": new Date("2023-07-06 23:50:00"),
+        "email_verified_at": ISODate("2023-07-06"),
         "estado": 1,
         "created_by": 16,
         "updated_by": 16,
         "foto": null,
         "password": "password1",
-        "created_at": new Date("2023-06-29 01:40:27"),
-        "updated_at": new Date("2023-06-29 01:40:27"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-29"),
+        "updated_at": ISODate("2023-06-29")
     },
     {
         "id": 7,
         "nombre": "diego6",
         "email": "diego6@yahoo.com",
-        "email_verified_at": new Date("2023-07-07 08:15:00"),
+        "email_verified_at": ISODate("2023-07-07"),
         "estado": 1,
         "created_by": 17,
         "updated_by": 17,
         "foto": null,
         "password": "pass123",
-        "created_at": new Date("2023-06-30 10:05:14"),
-        "updated_at": new Date("2023-06-30 10:05:14"),
-        "delete_at": null
+        "created_at": ISODate("2023-06-30"),
+        "updated_at": ISODate("2023-06-30")
     },
     {
         "id": 8,
         "nombre": "ana7",
         "email": "ana7@gmail.com",
-        "email_verified_at": new Date("2023-07-08 11:40:00"),
+        "email_verified_at": ISODate("2023-07-08"),
         "estado": 1,
         "created_by": 18,
         "updated_by": 18,
         "foto": null,
         "password": "abcxyz",
-        "created_at": new Date("2023-07-01 13:30:42"),
-        "updated_at": new Date("2023-07-01 13:30:42"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-01"),
+        "updated_at": ISODate("2023-07-01")
     },
     {
         "id": 9,
         "nombre": "juan8",
         "email": "juan8@outlook.com",
-        "email_verified_at": new Date("2023-07-09 14:05:00"),
+        "email_verified_at": ISODate("2023-07-09"),
         "estado": 1,
         "created_by": 19,
         "updated_by": 19,
         "foto": null,
         "password": "password123",
-        "created_at": new Date("2023-07-02 15:55:53"),
-        "updated_at": new Date("2023-07-02 15:55:53"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-02"),
+        "updated_at": ISODate("2023-07-02")
     },
     {
         "id": 10,
         "nombre": "maria9",
         "email": "maria9@hotmail.com",
-        "email_verified_at": new Date("2023-07-10 16:30:00"),
+        "email_verified_at": ISODate("2023-07-10"),
         "estado": 1,
         "created_by": 20,
         "updated_by": 20,
         "foto": null,
         "password": "maria123",
-        "created_at": new Date("2023-07-03 18:25:07"),
-        "updated_at": new Date("2023-07-03 18:25:07"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-03"),
+        "updated_at": ISODate("2023-07-03")
     },
     {
         "id": 11,
         "nombre": "carlos10",
         "email": "carlos10@gmail.com",
-        "email_verified_at": new Date("2023-07-11 17:45:00"),
+        "email_verified_at": ISODate("2023-07-11"),
         "estado": 1,
         "created_by": 11,
         "updated_by": 11,
         "foto": null,
         "password": "carlos456",
-        "created_at": new Date("2023-07-04 19:10:39"),
-        "updated_at": new Date("2023-07-04 19:10:39"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-04"),
+        "updated_at": ISODate("2023-07-04")
     },
     {
         "id": 12,
         "nombre": "laura11",
         "email": "laura11@yahoo.com",
-        "email_verified_at": new Date("2023-07-12 18:00:00"),
+        "email_verified_at": ISODate("2023-07-12"),
         "estado": 1,
         "created_by": 12,
         "updated_by": 12,
         "foto": null,
         "password": "laura567",
-        "created_at": new Date("2023-07-05 20:20:55"),
-        "updated_at": new Date("2023-07-05 20:20:55"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-05"),
+        "updated_at": ISODate("2023-07-05")
     },
     {
         "id": 13,
         "nombre": "diego12",
         "email": "diego12@gmail.com",
-        "email_verified_at": new Date("2023-07-13 12:15:00"),
+        "email_verified_at": ISODate("2023-07-13"),
         "estado": 1,
         "created_by": 13,
         "updated_by": 13,
         "foto": null,
         "password": "diego123",
-        "created_at": new Date("2023-07-06 14:30:20"),
-        "updated_at": new Date("2023-07-06 14:30:20"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-06"),
+        "updated_at": ISODate("2023-07-06")
     },
     {
         "id": 14,
         "nombre": "ana13",
         "email": "ana13@hotmail.com",
-        "email_verified_at": new Date("2023-07-14 14:50:00"),
+        "email_verified_at": ISODate("2023-07-14"),
         "estado": 1,
         "created_by": 14,
         "updated_by": 14,
         "foto": null,
         "password": "ana567",
-        "created_at": new Date("2023-07-07 17:05:49"),
-        "updated_at": new Date("2023-07-07 17:05:49"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-07"),
+        "updated_at": ISODate("2023-07-07")
     },
     {
         "id": 15,
         "nombre": "juan14",
         "email": "juan14@yahoo.com",
-        "email_verified_at": new Date("2023-07-15 16:20:00"),
+        "email_verified_at": ISODate("2023-07-15"),
         "estado": 1,
         "created_by": 15,
         "updated_by": 15,
         "foto": null,
         "password": "juan567",
-        "created_at": new Date("2023-07-08 18:40:30"),
-        "updated_at": new Date("2023-07-08 18:40:30"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-08"),
+        "updated_at": ISODate("2023-07-08")
     },
     {
         "id": 16,
         "nombre": "maria15",
         "email": "maria15@gmail.com",
-        "email_verified_at": new Date("2023-07-16 20:30:00"),
+        "email_verified_at": ISODate("2023-07-16"),
         "estado": 1,
         "created_by": 16,
         "updated_by": 16,
         "foto": null,
         "password": "maria567",
-        "created_at": new Date("2023-07-09 22:15:18"),
-        "updated_at": new Date("2023-07-09 22:15:18"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-09"),
+        "updated_at": ISODate("2023-07-09")
     },
     {
         "id": 17,
         "nombre": "pedro16",
         "email": "pedro16@hotmail.com",
-        "email_verified_at": new Date("2023-07-17 18:45:00"),
+        "email_verified_at": ISODate("2023-07-17"),
         "estado": 1,
         "created_by": 17,
         "updated_by": 17,
         "foto": null,
         "password": "pedro567",
-        "created_at": new Date("2023-07-10 20:40:12"),
-        "updated_at": new Date("2023-07-10 20:40:12"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-10"),
+        "updated_at": ISODate("2023-07-10")
     },
     {
         "id": 18,
         "nombre": "ana17",
         "email": "ana17@yahoo.com",
-        "email_verified_at": new Date("2023-07-18 16:30:00"),
+        "email_verified_at": ISODate("2023-07-18"),
         "estado": 1,
         "created_by": 18,
         "updated_by": 18,
         "foto": null,
         "password": "ana789",
-        "created_at": new Date("2023-07-11 18:35:27"),
-        "updated_at": new Date("2023-07-11 18:35:27"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-11"),
+        "updated_at": ISODate("2023-07-11")
     },
     {
         "id": 19,
         "nombre": "carlos18",
         "email": "carlos18@gmail.com",
-        "email_verified_at": new Date("2023-07-19 14:20:00"),
+        "email_verified_at": ISODate("2023-07-19"),
         "estado": 1,
         "created_by": 19,
         "updated_by": 19,
         "foto": null,
         "password": "carlos789",
-        "created_at": new Date("2023-07-12 16:25:38"),
-        "updated_at": new Date("2023-07-12 16:25:38"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-12"),
+        "updated_at": ISODate("2023-07-12")
     },
     {
         "id": 20,
         "nombre": "laura19",
         "email": "laura19@hotmail.com",
-        "email_verified_at": new Date("2023-07-20 12:10:00"),
+        "email_verified_at": ISODate("2023-07-20"),
         "estado": 1,
         "created_by": 20,
         "updated_by": 20,
         "foto": null,
         "password": "laura789",
-        "created_at": new Date("2023-07-13 14:30:45"),
-        "updated_at": new Date("2023-07-13 14:30:45"),
-        "delete_at": null
+        "created_at": ISODate("2023-07-13"),
+        "updated_at": ISODate("2023-07-13")
     }
 ]);
