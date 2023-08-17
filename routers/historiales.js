@@ -3,8 +3,6 @@ import { ObjectId} from "mongodb";
 import {conx} from "../db_mg/atlas.js";
 import { limitQuery } from "../limit/config.js";
 import {appMiddlewareData, appDTOData, appValidateData} from "../middleware/historiales.js";
-import { Historial } from "../dtocontroller/historiales.js";
-import { DTO } from '../limit/token.js';
 
 const appHis = express();
 appHis.use(express.json());
