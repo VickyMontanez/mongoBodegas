@@ -36,8 +36,8 @@ __decorate([
 ], Producto.prototype, "nombre", void 0);
 __decorate([
     Expose({ name: 'descripcion' }),
-    IsDefined({ message: 'The parameter "nombre" is required' }),
-    IsString({ message: 'The parameter "nombre" must be a string' }),
+    IsDefined({ message: 'The parameter "descripcion" is required' }),
+    IsString({ message: 'The parameter "descripcion" must be a string' }),
     __metadata("design:type", String)
 ], Producto.prototype, "descripcion", void 0);
 __decorate([

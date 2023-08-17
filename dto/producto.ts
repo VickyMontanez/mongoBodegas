@@ -14,8 +14,8 @@ export class Producto {
     nombre: string;
 
     @Expose({ name: 'descripcion' })
-    @IsDefined({ message: 'The parameter "nombre" is required' })
-    @IsString({ message: 'The parameter "nombre" must be a string' })
+    @IsDefined({ message: 'The parameter "descripcion" is required' })
+    @IsString({ message: 'The parameter "descripcion" must be a string' })
     descripcion: string;
 
     @Expose({ name: 'estado' })

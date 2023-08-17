@@ -75,7 +75,6 @@ by default */
     "updated_at": "2023-08-17"
 } 
 */
-
 export async function postProduct(req, res){
     try {
         const data = req.body;
@@ -108,4 +107,4 @@ export async function postProduct(req, res){
         console.log(e);
         res.status(500).send({ status: 500, message: "Internal Server Error :(", error: e.errInfo });
     }
-}
+};

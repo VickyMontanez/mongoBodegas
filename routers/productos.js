@@ -8,6 +8,6 @@ apProductos.use(express.json());
 
 apProductos.get("/all", limitQuery(), appMiddlewareBodega, getProductos);
 apProductos.get("/total", limitQuery(), appMiddlewareBodega, getTotal);
-apProductos.post("/post", postProduct)
+apProductos.post("/post",  limitQuery(), appValidateData, appMiddlewareBodega, appDTOData, postProduct)
 
 export default apProductos;
