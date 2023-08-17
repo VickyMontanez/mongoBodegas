@@ -67,8 +67,7 @@ appHis.post("/insertOne", limitQuery(), appValidateData, appDTOData, appMiddlewa
             _id: new ObjectId(),
             ...req.body,
             created_at: new Date(req.body.created_at),
-            updated_at: new Date(req.body.updated_at),
-            delete_at: new Date(req.body.delete_at),
+            updated_at: new Date(req.body.updated_at)
         });
         res.status(201).json({
             satus: 201,
