@@ -13,6 +13,37 @@ export async function getBodegas(req, res) {
     }
 };
 
+// 2.Make an EndPolnt that allows you to create a Bodega.
+/*
+{
+    "id": 31,
+    "nombre": "bodegaLOL",
+    "id_responsable": 20,
+    "estado": 1,
+    "created_by": 10,
+    "updated_by": 10,
+    "created_at": "2023-08-17",
+    "updated_at": "2023-08-17"
+} */
+
+export async function postBodegas(req, res){
+    try{
+        let db = await conx();
+        let colleccion = db.collection("bodegas");
+        let data = req.body;
+        const newBodega = {
+            _id: new ObjectId(),
+            ...data,
+            created_at: new Date(req.body.created_at),
+            updated_at: new Date(req.body.updated_at)
+        };
+        await colleccion.insertOne(newBodega);
+        res.status(201).send({ status:201, message: "Created :)" });
+    } catch (error) {
+        console.error(error);
+        res.status(500).send({ status:500, message: "Internal Server Error :(" });
+    }
+};
 
 
 

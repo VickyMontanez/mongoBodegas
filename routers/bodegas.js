@@ -7,5 +7,5 @@ const appbodegas = express();
 appbodegas.use(express.json());
 
 appbodegas.get("/abc", limitQuery(), appMiddlewareBodega, getBodegas);
-
+appbodegas.post("/new", limitQuery(), appValidateData, appMiddlewareBodega, appDTOData, postBodegas)
 export default appbodegas;
