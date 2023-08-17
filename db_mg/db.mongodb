@@ -1101,6 +1101,7 @@ db.inventarios.insertMany([
         "updated_at": ISODate("2023-06-24")
     }
 ]);
+
 use("db_bodegas_mongo");
 db.createCollection("productos", {
     capped: true,
