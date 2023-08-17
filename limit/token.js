@@ -5,6 +5,8 @@ import {Router} from 'express';
 import { SignJWT, jwtVerify } from 'jose';
 import {Historial} from "../dtocontroller/historiales.js";
 import { Bodega } from '../dtocontroller/bodegas.js';
+import { Producto } from '../dtocontroller/producto.js'
+
 dotenv.config();
 const appToken = Router();
 const appVerify = Router();
@@ -13,7 +15,8 @@ const appVerify = Router();
 const DTO = (p1) =>{
     const match = {
         'historiales': Historial,
-        'bodegas': Bodega
+        'bodegas': Bodega,
+        'productos': Producto
     };  
     const instan = match[p1];
     if(!instan) throw {status:404, error:"Not Found", message:"Invalid Token :("}

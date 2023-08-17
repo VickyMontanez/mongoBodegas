@@ -1,17 +1,19 @@
 import express from "express";
 import dotenv from "dotenv";
-import appHis from "./routers/historiales.js";
 import { appToken, appVerify } from "./limit/token.js";
+import appHis from "./routers/historiales.js";
 import appbodegas from "./routers/bodegas.js";
+import apProductos from "./routers/productos.js";
+
 dotenv.config();
 
 const appExpress = express();
 
 
 appExpress.use("/historiales", appVerify, appHis);
-appExpress.use("/bodegas", appVerify, appbodegas )
+appExpress.use("/bodegas", appVerify, appbodegas );
+appExpress.use("/productos", appVerify, apProductos);
 appExpress.use("/token", appToken);
-
 
 
 const config = JSON.parse(process.env.MY_CONFIG);
