@@ -48,7 +48,7 @@ export class Bodega {
     constructor(data: Partial<Bodega>) {
         Object.assign(this, data);
         this.id = 0;
-        this.nombre = "Bodega23";
+        this.nombre = "";
         this.id_responsable = 0;
         this.estado = 0;
         this.created_by = 0;

@@ -6,14 +6,14 @@ import { Router } from "express";
 import { DTO } from '../limit/token.js';
 import express from 'express'
 
-const appMiddlewareData = Router();
+const appMiddlewareBodega = Router();
 const appDTOData = Router();
 const appValidateData = express();
 
 appValidateData.use(async (req, res, next) => {
   try {
     const data = plainToClass(Bodega, req.body, { excludeExtraneousValues: true });
-    const validateData = await validate(data);
+    const validateData = await validate(data); 
     const validation = validateData.length > 0 ? validateData.flatMap(err => Object.values(err.constraints)): (req.body = JSON.parse(JSON.stringify(data)), []);
     validation.length > 0 ? res.status(400).json({ status: 400, message: "Validation error", errors: validation}) : (req.body = JSON.parse(JSON.stringify(data)), next());
   } catch (error) {
@@ -21,8 +21,8 @@ appValidateData.use(async (req, res, next) => {
   }
 });
 
-appMiddlewareData.use((req, res, next) => {
-  if (!req.rateLimit) return;
+appMiddlewareBodega.use((req, res, next) => {
+  if(!req.rateLimit) return;
   let { payload } = req.data;
   const { iat, exp, ...newPayload } = payload;
   payload = newPayload;
@@ -50,7 +50,7 @@ appDTOData.use(async (req, res, next) => {
 });
 
 export {
-  appMiddlewareData,
+  appMiddlewareBodega,
   appDTOData,
   appValidateData
 };
