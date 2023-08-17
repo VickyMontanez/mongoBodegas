@@ -6,7 +6,7 @@ import { Router } from "express";
 import { DTO } from '../limit/token.js';
 import express from 'express'
 
-const appMiddlewareBodega = Router();
+const appMiddlewareProducto = Router();
 const appDTOData = Router();
 const appValidateData = express();
 
@@ -21,7 +21,7 @@ appValidateData.use(async (req, res, next) => {
   }
 });
 
-appMiddlewareBodega.use((req, res, next) => {
+appMiddlewareProducto.use((req, res, next) => {
   if(!req.rateLimit) return;
   let { payload } = req.data;
   const { iat, exp, ...newPayload } = payload;
@@ -50,7 +50,7 @@ appDTOData.use(async (req, res, next) => {
 });
 
 export {
-  appMiddlewareBodega,
+  appMiddlewareProducto,
   appDTOData,
   appValidateData
 };
