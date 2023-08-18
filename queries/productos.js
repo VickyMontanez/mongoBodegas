@@ -12,8 +12,6 @@ export async function getProductos(req, res) {
     }
 };
 
-/* 3.Make an EndPoint that allows listing all the products in order
-descending by the "Total" field. */
 export async function getTotal(req, res){
     try {
         let db = await conx();
@@ -60,21 +58,6 @@ export async function getTotal(req, res){
     }
 };
 
-/* 4. Make an EndPoint that allows you to insert a product and in turn assign
-an initial amount of it in the inventory table in one of the warehouses
-by default */
-/* 
-{
-    "id": 31,
-    "nombre": "producto31",
-    "descripcion": "producto31",
-    "estado": 1,
-    "created_by": 12,
-    "updated_by": 12,
-    "created_at": "2023-08-17",
-    "updated_at": "2023-08-17"
-} 
-*/
 export async function postProduct(req, res){
     try {
         const data = req.body;
