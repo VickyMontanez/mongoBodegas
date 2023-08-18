@@ -1,11 +1,14 @@
 import express from "express";
 import { ObjectId} from "mongodb";
 import {conx} from "../db_mg/atlas.js";
+import {apptraslado} from "../queries/historiales.js"
 import { limitQuery } from "../limit/config.js";
 import {appMiddlewareData, appDTOData, appValidateData} from "../middleware/historiales.js";
 
 const appHis = express();
 appHis.use(express.json());
+
+appHis.post("/traslado", apptraslado)
 
 //Get ALL the Documents in the Collection
 appHis.get("/", limitQuery(), appMiddlewareData, async (req, res) => {
