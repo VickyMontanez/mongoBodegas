@@ -14,7 +14,7 @@ const appExpress = express();
 appExpress.use("/historiales", appVerify, appHis);
 appExpress.use("/bodegas", appVerify, appbodegas );
 appExpress.use("/productos", appVerify, apProductos);
-appExpress.use("/inventarios", appInventario)
+appExpress.use("/inventarios", appVerify, appInventario)
 appExpress.use("/token", appToken);
 
 
