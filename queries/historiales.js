@@ -1,6 +1,18 @@
 import {conx} from "../db_mg/atlas.js";
 import { ObjectId } from "mongodb";
 
+
+/* {
+  "id":31,
+  "id_producto":1,
+  "cantidad":3,
+  "id_bodega_origen":1,
+  "id_bodega_destino":2,
+  "created_by":1,
+  "updated_by":1,
+  "created_at": "2023-08-22",
+  "updated_at": "2023-08-22"
+} */
 export async function apptraslado(req, res){
     try {
         const { id_producto, id_bodega_origen, id_bodega_destino, cantidad } = req.body;
@@ -12,10 +24,25 @@ export async function apptraslado(req, res){
         const origenBodega = await inventariosColleccion.findOne({
             id_producto: id_producto,
             id_bodega: id_bodega_origen,
-            cantidad: parseInt(cantidad)
+            cantidad: { $gte: cantidad }
         });
+        await inventariosColleccion.updateOne(
+            { _id: origenBodega._id },
+            { $inc: { cantidad: -cantidad } }
+        );
 
         const destinoBodega = await inventariosColleccion.findOne({
+            id_producto: id_producto,
+            id_bodega: id_bodega_destino
+        });
+        
+        if (!destinoBodega) {
+            await historialesColleccion.insertOne(nuevoHistorial)
+            return;
+        }
+        
+        res.send(destinoBodega)
+        /* const destinoBodega = await inventariosColleccion.findOne({
             id_producto: id_producto,
             id_bodega: id_bodega_destino,
             cantidad: parseInt(cantidad)
@@ -47,7 +74,7 @@ export async function apptraslado(req, res){
 
         await historialesColleccion.insertOne(nuevoHistorial);
 
-        res.send({ status: 200, message: "Producto trasladado exitosamente" });
+        res.send({ status: 200, message: "Producto trasladado exitosamente" }); */
     } catch (error) {
         console.log(error.message);
         res.status(500).send({ status: 500, message: "Internal Server Error" });
