@@ -1,7 +1,7 @@
 {
   "name": "mongobodegas",
   "version": "1.0.0",
-  "description": "Asegúrate de tener instalado lo siguiente antes de comenzar con el proyecto:",
+  "description": "Make sure you have the following installed before starting the project:",
   "main": "app.js",
   "type": "module",
   "scripts": {
