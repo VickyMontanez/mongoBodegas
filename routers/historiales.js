@@ -8,7 +8,36 @@ import {appMiddlewareData, appDTOData, appValidateData} from "../middleware/hist
 const appHis = express();
 appHis.use(express.json());
 
-appHis.post("/traslado", apptraslado)
+/* 
+6. Carry out an EndPolnt that allows the transfer of a product from one warehouse to another
+ 
+• It must be validated that the number of units to be removed
+of a Warehouse, it is possible, since if I have 10 units in the
+Warehouse A, I will not be able to get 20 units out of it. This action should
+generate an alert and prevent registration.
+• For the affectation of the tables it must be considered that from the Origin I must
+subtract the amount, and I must add the amount to the destination.
+For example: Warehouse A = 10 units. Warehouse B = 10 units. I will do
+the transfer of 5
+units from Warehouse A to Warehouse B, therefore the result
+It will be to update the two records in inventories:
+Warehouse A = 5 units. Warehouse B = 15 units. Also make a
+lnsert with all the information in the history table. */
+
+/* {
+  "id":31,
+  "id_producto":1,
+  "cantidad":3,
+  "id_inventario":2,
+  "id_bodega_origen":1,
+  "id_bodega_destino":2,
+  "created_by":1,
+  "updated_by":1,
+  "created_at": "2023-08-22",
+  "updated_at": "2023-08-22"
+} */
+
+appHis.post("/traslado", limitQuery(), appValidateData, appDTOData, appMiddlewareData, apptraslado)
 
 //Get ALL the Documents in the Collection
 appHis.get("/", limitQuery(), appMiddlewareData, async (req, res) => {

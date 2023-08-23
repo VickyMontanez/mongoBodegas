@@ -8,6 +8,10 @@ export class Historial {
     @IsInt({ message: 'The parameter "Id" must be a number' })
     id: number;
 
+    @Expose({ name: 'id_producto' })
+    @IsInt({ message: 'The parameter "IdProducto" must be a number' })
+    id_producto: number;
+
     @Expose({ name: 'cantidad' })
     @IsDefined({ message: 'The parameter "cantidad" is required' })
     @IsInt({ message: 'The parameter "cantidad" must be a number' })
@@ -54,6 +58,7 @@ export class Historial {
         Object.assign(this, data);
         this.id = 0;
         this.cantidad = 0;
+        this.id_producto = 0;
         this.id_bodega_origen = 0;
         this.id_bodega_destino = 0;
         this.id_inventario = 0;

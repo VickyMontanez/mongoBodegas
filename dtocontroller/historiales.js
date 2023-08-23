@@ -14,6 +14,7 @@ export class Historial {
         Object.assign(this, data);
         this.id = 0;
         this.cantidad = 0;
+        this.id_producto = 0;
         this.id_bodega_origen = 0;
         this.id_bodega_destino = 0;
         this.id_inventario = 0;
@@ -29,6 +30,11 @@ __decorate([
     IsInt({ message: 'The parameter "Id" must be a number' }),
     __metadata("design:type", Number)
 ], Historial.prototype, "id", void 0);
+__decorate([
+    Expose({ name: 'id_producto' }),
+    IsInt({ message: 'The parameter "IdProducto" must be a number' }),
+    __metadata("design:type", Number)
+], Historial.prototype, "id_producto", void 0);
 __decorate([
     Expose({ name: 'cantidad' }),
     IsDefined({ message: 'The parameter "cantidad" is required' }),

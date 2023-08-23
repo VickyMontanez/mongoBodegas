@@ -7,6 +7,7 @@ db.createCollection("historiales", {
     validator: {
         $jsonSchema: {
             bsonType: 'object',
+            additionalProperties: false,
             required: ['id', 'cantidad', 'id_bodega_origen', 'id_bodega_destino', 'id_inventario', "created_by", "updated_by", "created_at", "updated_at"],
             properties: {
                 _id: {
@@ -19,6 +20,10 @@ db.createCollection("historiales", {
                 cantidad: {
                     bsonType: "number",
                     description: '{"status": "402", "message": "La CANTIDAD del historial es un dato OBLIGATORIO y de tipo NUMERICO"}'
+                },
+                id_producto: {
+                    bsonType: "int",
+                    description: '{"status": "402", "message":"El ID DEL PRODUCTO del historial es un dato OBLIGATORIO y de tipo NUMERICO"}'
                 },
                 id_bodega_origen: {
                     bsonType: "int",
