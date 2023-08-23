@@ -51,7 +51,7 @@ export async function getTotal(req, res){
                 }
             }
         ];
-        let result = await colleccion.aggregate(query).sort({nombre: 1}).toArray();
+        let result = await colleccion.aggregate(query).toArray();
         res.send(result);
     } catch (error) {
         res.status(404).send({ status:404, message: "Query Not Found :(" })
